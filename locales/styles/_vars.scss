@@ -1,0 +1,60 @@
+$white			:#FFFFFF;
+$black			:#181c32;
+$primary		:#00cde4; //
+
+$secondary		:#212529; //
+$main			:#334242; //
+
+$purple			:#1f2641;
+$purple-light	:#545c79;
+$green			:#10cb6c;
+$green-dark		:#098747;
+$red			:#dc3545;
+$orange			:#ed824e;
+$blue-dark		:#279BE7;
+
+$btn-focus-box-shadow:  0;
+
+$theme-colors: (
+	"secondary"	:  	$secondary,
+	"primary"	:   $primary,
+    "danger"	: 	$red,
+	"success"	:	$green,
+	"warning"	:	$orange,
+	"info"		:	$primary,
+);
+
+//Body
+$body-bg:					$purple !default;
+$body-color:				$white !default;
+$font-family-sans-serif: 	'Museo Sans Cyrl',sans-serif,Arial,Helvetica;
+$font-size-base: 			1rem; // 16px
+$font-weight-normal: 		500;
+//H
+$headings-font-family: 		'Gilroy',sans-serif,Arial,Helvetica;
+$headings-font-weight: 		800;
+$headings-color: 			$white;
+
+$h1-font-size:     $font-size-base * 4 !default;
+$h4-font-size:     $font-size-base * 1.2 !default;
+$h5-font-size:     $font-size-base * 1.1 !default;
+
+//FIX BOOTSTRAP 5.0.2
+//$zindex-modal-backdrop:	1040;
+
+// ======================================================
+// HEADER
+// ======================================================
+$height-header: 68px;
+$height-header-fix: 42px;
+
+// ======================================================
+// Card & P - bootstrap var
+// ======================================================
+$paragraph-margin-bottom: .2rem;
+
+// ======================================================
+// border-radius - bootstrap var
+// ======================================================
+$card-border-radius: 0;
+$card-inner-border-radius: 0;

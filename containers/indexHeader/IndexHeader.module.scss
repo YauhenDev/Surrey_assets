@@ -1,0 +1,102 @@
+@import "@styles/vars";
+
+$height: 1000px;
+$top: 240px;
+$height1200: calc($height - $top); // 760
+$top1200: 400px;  // 400
+
+.block {
+	background-color: $blue-dark;
+	height: $height;
+	position: relative;
+	overflow: hidden;
+	max-width: 1920px;
+}
+
+.skyBlock {
+	position: absolute;
+	z-index: 0;
+    height:  calc($height - 400px);
+    width: 100%;
+}
+
+
+.city {
+	position: absolute;
+	top: $top;
+    height: 100%;
+    width: 100%;
+	max-height: calc($height - $top);
+	max-width: 1920px;
+	z-index: 2;
+}
+
+.title {
+	margin: 0 auto;
+    text-align: center;
+    position: relative;
+	max-width: 1920px;
+    top: $top;
+}
+
+.titleMain {
+	font-size: 10rem;
+	color: rgba($color: $primary, $alpha: 0.75);
+	text-shadow: 0 0 10px #060c1d;
+	font-family: 'Academy',$headings-font-family;
+	font-weight: 400;
+}
+
+@media (max-width: 1399px) {
+	.title {
+		top: calc($top + 40px);
+	}
+	.titleMain {
+		font-size: 8rem;
+	}
+}
+
+@media (max-width: 1199px) {
+	.block {
+		height: $height1200;
+	}
+	.skyBlock {
+		height: $top1200;
+	}
+	.city {
+		position: absolute;
+		top: 100px;
+		max-height: calc($height1200 - 100px);
+	}
+	.title {
+		top: 140px;
+	}
+	.titleMain {
+		font-size: 6rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.title {
+		top: 120px;
+	}
+	.titleMain {
+		font-size: 4rem;
+	}
+}
+
+@media  (max-width: 767px) {
+	.title {
+		top: 150px;
+	}
+}
+
+@media  (max-width: 575px) {
+	.title {
+		top: 150px;
+	}
+	.titleMain {
+		font-size: 4.4rem;
+		line-height: 3.6rem;
+	}
+}

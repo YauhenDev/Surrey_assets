@@ -1,0 +1,30 @@
+@import "@styles/vars";
+
+
+.item {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	a {
+		color: $white;
+	}
+}
+
+@media  (max-width: 1100px) {
+	.item {
+		padding-right: .5rem;
+		padding-left: .5rem;
+	}
+}
+
+@media  (max-width: 991px) {
+	.nav {
+		margin-top: 1rem;
+	}
+	.item {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		display: block;
+		padding: .8rem;
+		text-align: center;
+	}
+}

@@ -1,5 +1,7 @@
 @import "@styles/vars";
 
+$bgWidthLogo: 400px;
+
 .menu {
 	background-color: transparent;
 	-webkit-backdrop-filter: blur(100px);
@@ -106,6 +108,17 @@
 		button {
 			margin-top: 1.5rem;
 			margin-left: 0;
+		}
+	}
+	.bgLogo {
+		position: absolute;
+		opacity: .1;
+		height: $bgWidthLogo;
+		width: 100%;
+		top: 10%;
+		right: -20%;
+		svg {
+			width: 100%;
 		}
 	}
 }

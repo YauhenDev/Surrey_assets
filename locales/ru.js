@@ -1,7 +1,6 @@
 export const ru = {
-	title: 'SURREY ASSETS',
 	mainAttr: {
-		nameSite: '',
+		nameCompany: 'SURREY ASSETS',
 	},
 	mainPages: [
 		{	

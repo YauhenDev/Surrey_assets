@@ -1,7 +1,6 @@
 export const en = {
-	title: 'SURREY ASSETS',
 	mainAttr: {
-		nameSite: ''
+		nameCompany: 'SURREY ASSETS',
 	},
 	mainPages: [
 		{	

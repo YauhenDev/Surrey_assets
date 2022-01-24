@@ -5,16 +5,15 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from './IndexHeader.module.scss'
 
 export default function IndexHeader({ 
-	indexHeader,
-	setmodalShow,
-	widthDevice
+	nameCompany
+	//widthDevice
 }) {
 
 	// Определение телефона по сетке bootstrap 5
 	// для замены меню bootstrap 5 на offcanvas
-	const [isMobile, setIsMobile] = useState(widthDevice);
-	const ismobile = widthDevice < 992;
-	if (ismobile !== isMobile) setIsMobile(ismobile);
+	// const [isMobile, setIsMobile] = useState(widthDevice);
+	// const ismobile = widthDevice < 992;
+	// if (ismobile !== isMobile) setIsMobile(ismobile);
 
 	//debugger;
 	return (
@@ -26,8 +25,6 @@ export default function IndexHeader({
 				src="/assets/bg-index-header/sky_dark.jpg" 
 				layout="fill"
 				objectFit="cover"
-				//width={2949}
-				//height={1260}
        			quality={100}
 				priority="false"
 				alt="backgroud sky"
@@ -36,6 +33,7 @@ export default function IndexHeader({
 		<div
 			className={ styles.city }
 		>
+		{/* 
 		{isMobile ?
 			<Image 
 				src="/assets/bg-index-header/city_mobile.png" 
@@ -54,7 +52,26 @@ export default function IndexHeader({
 				priority="false"
 				alt="backgroud sky"
 			/>
-		}
+		} 
+		*/}
+		<Image 
+				src="/assets/bg-index-header/city_mobile.png" 
+				layout="fill"
+				objectFit="cover"
+       			quality={100}
+				priority="false"
+				alt="backgroud sky"
+				className={ styles.bgcitymobile }
+			/>
+		<Image 
+				src="/assets/bg-index-header/city.png" 
+				layout="fill"
+				objectFit="cover"
+       			quality={100}
+				priority="false"
+				alt="backgroud sky"
+				className={ styles.bgcity }
+			/>
 		</div>
 		<div
 			className={ styles.title }
@@ -62,7 +79,7 @@ export default function IndexHeader({
 			<span 
 				className={ styles.titleMain }
 			>
-				SURREY ASSETS
+				{ nameCompany }
 			</span>
 		</div>
 	</Container>

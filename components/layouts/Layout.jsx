@@ -7,7 +7,7 @@ export default function Layout({
 	children,
 	state,
 	setmodalShow,
-	widthDevice
+	//widthDevice
 }) {
 
 	//debugger;

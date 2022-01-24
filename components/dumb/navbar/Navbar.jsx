@@ -88,6 +88,11 @@ export default function Navbar({
 					onClick={ handleNavCollapse }
 				>
 
+					<div className={`${ styles.bgLogo } d-md-block d-lg-none`}>
+						<LogoImg />
+					</div>
+
+
 					<LinksMenu 
 						indexLinksBlock={ indexLinksBlock }
 						mainPages={ mainPages }

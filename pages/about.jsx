@@ -1,11 +1,14 @@
 import Head from 'next/head'
 
+import InnerHeader from "@containers/innerHeader/InnerHeader"
+
 export default function About({
 	state
 }) {
 
 	const i = 1
 	const { 
+		titleLink,
 		seoTitle, 
 		seoDescription, 
 	} = state.mainPages[i]
@@ -19,7 +22,48 @@ export default function About({
 			<meta property="og:description"	content={ seoDescription } />
 		</Head>
 
-		< br />< br />< br />< br />
+		<InnerHeader 
+			h1={ titleLink }
+		/>
+
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
+		about page< br />
 		about page< br />
 
 	</>

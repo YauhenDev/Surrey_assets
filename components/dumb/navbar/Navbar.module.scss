@@ -45,38 +45,56 @@ $bgWidthLogo: 400px;
 		background-color: $white;
 		display: block;
 		border-radius: 4px;
-		transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out, transform 0.4s ease-in-out 0.4s;
 		position: absolute;
 	}
 }
+
 .line1 {
 	top: 0;
-	transform-origin: 5%;
 }
 .line2 {
 	top: 13.5px;
-	right: 0;
+	width: 1px !important;
+    transform: rotate(90deg);
+    left: 13.5px;
 }
 .line3 {
+	top: 13.5px;
+	right: 0;
+	width: 1px !important;
+    left: 13.5px;
+}
+.line4 {
+	top: 13.5px;
 	bottom: 0;
-	transform-origin: 5%;
+}
+.line5 {
+	bottom: 0px;
 }
 
 [aria-expanded="true"] {
+	
 	.line1 {
-		transform: rotate(45deg);
-		height: 3px;
-		width: 42px;
-	}
-	.line2 {
-		transform: rotate(45deg);
-		height: 3px;
+		top: 13.5px;
 		background-color: transparent;
 	}
+	.line2 {
+		left: 0px;
+		width: 30px !important;
+		transform: rotate(45deg);
+	}
 	.line3 {
+		left: 0;
+		width: 30px !important;
 		transform: rotate(-45deg);
-		height: 3px;
-		width: 42px;
+	}
+	.line4 {
+		background-color: transparent;
+	}
+	.line5 {
+		bottom: 13.5px;
+		background-color: transparent;
 	}
 }
 

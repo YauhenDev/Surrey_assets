@@ -1,0 +1,36 @@
+@import "@styles/vars";
+
+$height-index-header: 125px;
+
+.block {
+	padding-top: 64px;
+	background: rgb(12,18,48);
+	background: linear-gradient(180deg, 
+		rgba(12,18,48,1) 0%, 
+		rgba(18,23,62,1) 10%,
+		rgba(19,34,68,1) 30%, 
+		rgba(18,25,66,1) 50%, 
+		rgba(18,33,69,1) 90%, 
+		rgba(12,18,48,1) 100%
+	);
+}
+
+.row {
+	height: $height-index-header;
+}
+
+@media (max-width: 991px) {
+	.row {
+		h1 {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@media  (max-width: 767px) {
+	.row {
+		h1 {
+			font-size: 1.6rem;
+		}
+	}
+}

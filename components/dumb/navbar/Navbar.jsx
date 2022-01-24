@@ -76,6 +76,8 @@ export default function Navbar({
 							<span className={ styles.line1 }></span>
 							<span className={ styles.line2 }></span>
 							<span className={ styles.line3 }></span>
+							<span className={ styles.line4 }></span>
+							<span className={ styles.line5 }></span>
 						</div>
 					</Button>
 

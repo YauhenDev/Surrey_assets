@@ -1,11 +1,14 @@
 import Head from 'next/head'
 
+import InnerHeader from "@containers/innerHeader/InnerHeader"
+
 export default function Contacts({
 	state
 }) {
 
 	const i = 4
 	const { 
+		titleLink,
 		seoTitle, 
 		seoDescription, 
 	} = state.mainPages[i]
@@ -18,6 +21,10 @@ export default function Contacts({
 			<meta property="og:title"		content={ seoTitle } />
 			<meta property="og:description"	content={ seoDescription } />
 		</Head>
+
+		<InnerHeader 
+			h1={ titleLink }
+		/>
 
 		< br />< br />< br />< br />
 		Contacts page< br />

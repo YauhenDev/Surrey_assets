@@ -11,6 +11,7 @@ export default function Home({
 	const { 
 		seoTitle, 
 		seoDescription, 
+		indexHeader
 	} = state.mainPages[i]
 
 	return (
@@ -25,6 +26,7 @@ export default function Home({
 		<IndexHeader 
 			//widthDevice={ widthDevice }
 			nameCompany={ state.mainAttr.nameCompany }
+			indexHeader={ indexHeader }
 		/>
 
 		index page< br />

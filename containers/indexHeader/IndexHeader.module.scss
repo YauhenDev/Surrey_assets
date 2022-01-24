@@ -18,8 +18,17 @@ $top1200: 400px;  // 400
 	z-index: 0;
     height:  calc($height - 400px);
     width: 100%;
-}
 
+	background: rgb(12,18,48);
+	background: linear-gradient(180deg, 
+		rgba(12,18,48,1) 0%, 
+		rgba(18,23,62,1) 10%,
+		rgba(19,34,68,1) 30%, 
+		rgba(18,25,66,1) 50%, 
+		rgba(18,33,69,1) 90%, 
+		rgba(12,18,48,1) 100%
+	);
+}
 
 .city {
 	position: absolute;
@@ -55,6 +64,29 @@ $top1200: 400px;  // 400
 	font-weight: 400;
 }
 
+.blockTxt {
+	position: relative;
+	z-index: 3;
+	margin-top: 300px;
+	p {
+		margin-top: 1.5rem;
+		padding: 1rem .75rem;
+		color: $white;
+		font-size: 1.2rem;
+		max-width: 800px;
+		text-align: center;
+		background-color: rgba($color: $blue-dark, $alpha: 0.8);
+		border: 1px solid $primary;
+		box-shadow: 0 0 10px $black;
+	}
+}
+.blockLeft {
+	text-align: right;
+}
+.blockRight {
+	text-align: left;
+}
+
 @media (max-width: 1399px) {
 	.title {
 		top: calc($top + 40px);
@@ -82,6 +114,13 @@ $top1200: 400px;  // 400
 	.titleMain {
 		font-size: 6rem;
 	}
+	.blockTxt {
+		margin-top: 200px;
+		p {
+			font-size: 1rem;
+			max-width: 800px;
+		}
+	}
 }
 
 @media (max-width: 991px) {
@@ -97,6 +136,19 @@ $top1200: 400px;  // 400
 	}
 	.bgcitymobile {
 		visibility: visible;
+	}
+	.blockRight,
+	.blockLeft {
+		text-align: center;
+		a {
+			width: 100%;
+			max-width: 275px;
+			span {
+				display: block;
+				text-align: center;
+				width: 100%;
+			}
+		}
 	}
 }
 

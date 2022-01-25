@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }) {
 
 	// Подключаем state в зависимости от языка
 	const router = useRouter()
-	const state = router.locale === 'ru' ? ru : en
+	const state = router.locale === 'en' ? en : ru
 
 	//Постоянно смотрим за разрешением 
 	// const useDeviceSize = () => {

@@ -10,7 +10,7 @@ export default function ToggleLanguage() {
 
 	const { asPath } = useRouter();
 	const router = useRouter();
-	const lng = router.locale === 'ru' ? "RU" : "EN"
+	const lng = router.locale === 'en' ? "EN" : "RU"
 
 	return (
 	<ul className={`${ styles.toggleLng } navbar-nav`}>
@@ -28,19 +28,19 @@ export default function ToggleLanguage() {
 				className={`${ styles.dropDown } dropdown-menu`}
 				aria-labelledby="dropdownLng"
 			>
-				<Link href={ asPath } locale="ru">
-					<a className="dropdown-item">
-						<RuSVG />
-						<span>
-							RU
-						</span>
-					</a>
-				</Link>
 				<Link href={ asPath } locale="en">
 					<a className="dropdown-item">
 						<EnSVG />
 						<span>
 							EN
+						</span>
+					</a>
+				</Link>
+				<Link href={ asPath } locale="ru">
+					<a className="dropdown-item">
+						<RuSVG />
+						<span>
+							RU
 						</span>
 					</a>
 				</Link>

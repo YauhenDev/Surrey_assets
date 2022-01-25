@@ -31,14 +31,14 @@ a {
 	text-decoration: none;
 	position: relative;
 	&::before {
-		content: "";
-		bottom: 0;
-		right: 0;
 		position: absolute;
-		width: 0%;
+		content: "";
 		height: 1px;
+		bottom: -3px;
+		right: 0;
+		width: 0%;
 		background-color: $primary;
-		transition: 0.6s;
+		transition: 0.6s ease-out;
 	}
 	&:hover {
 		color: $primary;
@@ -109,11 +109,8 @@ a {
 
 //Задаем цвета для логотипа
 svg {
-	[data-fill="white"] {
-		fill: $white;
-	}
 	[data-fill="blue"] {
-		fill: #00bcf1;
+		fill: $primary;
 	}
 }
 @media  (max-width: 1199px) {

@@ -14,6 +14,7 @@ export default function Home({
 		indexHeader
 	} = state.mainPages[i]
 
+	//debugger
 	return (
 	<>
 		<Head>

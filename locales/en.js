@@ -1,6 +1,10 @@
 export const en = {
 	mainAttr: {
-		nameCompany: 'SURREY ASSETS',
+		nameCompany		: 'SURREY ASSETS',
+		ogNameCompany	: 'SURREY ASSETS',
+		phoneCompany	: '70001234567',
+		emailCompany	: 'info@surrey-assets.com',
+		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},
 	mainPages: [
 		{	
@@ -9,6 +13,7 @@ export const en = {
 			seoTitle	: "",
 			seoDescription : "",
 			pathLink	: "/",
+			invest		: false,
 			indexHeader	: {
 				buttonName: "Learn more about us",
 				buttonPres: "Download presentation",
@@ -21,20 +26,23 @@ export const en = {
 			seoTitle	: "About Us",
 			seoDescription : "",
 			pathLink	: "/about",
+			invest		: false,
 		},
 		{	
 			nameLink	: "For Private Investors",
 			titleLink	: "For Private Investors",
 			seoTitle	: "For Private Investors",
 			seoDescription : "",
-			pathLink	: "/for_private_investors",
+			pathLink	: "/for-private-investors",
+			invest		: true,
 		},
 		{	
 			nameLink	: "For Investment Managers",
 			titleLink	: "For Investment Managers",
 			seoTitle	: "For Investment Managers",
 			seoDescription : "",
-			pathLink	: "/for_investment_managers",
+			pathLink	: "/for-investment-managers",
+			invest		: true,
 		},
 		{	
 			nameLink	: "Contacts",
@@ -42,9 +50,22 @@ export const en = {
 			seoTitle	: "Contacts",
 			seoDescription : "",
 			pathLink	: "/contacts",
+			invest		: false,
 		}
 	],
+	privacyPolicy: {
+		nameLink	: "Privacy policy",
+		titleLink	: "Privacy policy",
+		seoTitle	: "Privacy policy",
+		seoDescription : "",
+		pathLink	: "/privacy-policy",
+	},
 	footer: {
-		copyright: 'All rights reserved.'
+		copyright		: 'All rights reserved.',
+		official		: 'Official site',
+		companyBlockName: 'Company',
+		investBlockName	: 'Investments',
+		contactsBlockName: 'Contacts',
+		companyTxt		: 'Is owned and driven by a team of financial entrepreneurs with vast professional experience and pure passion to beat the average.',
 	}
 };

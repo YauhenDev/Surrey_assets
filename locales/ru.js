@@ -1,6 +1,10 @@
 export const ru = {
 	mainAttr: {
-		nameCompany: 'SURREY ASSETS',
+		nameCompany		: 'SURREY ASSETS',
+		ogNameCompany	: 'SURREY ASSETS',
+		phoneCompany	: '70001234567',
+		emailCompany	: 'info@surrey-assets.com',
+		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},
 	mainPages: [
 		{	
@@ -9,6 +13,7 @@ export const ru = {
 			seoTitle	: "",
 			seoDescription : "",
 			pathLink	: "/",
+			invest		: false,
 			indexHeader	: {
 				buttonName: "Узнать подробнее о нас",
 				buttonPres: "Скачать презентацию",
@@ -21,20 +26,23 @@ export const ru = {
 			seoTitle	: "О нас",
 			seoDescription : "",
 			pathLink	: "/about",
+			invest		: false,
 		},
 		{	
 			nameLink	: "Для частных инвесторов",
 			titleLink	: "Для частных инвесторов",
 			seoTitle	: "Для частных инвесторов",
 			seoDescription : "",
-			pathLink	: "/for_private_investors",
+			pathLink	: "/for-private-investors",
+			invest		: true,
 		},
 		{	
 			nameLink	: "Для инвестиционных менеджеров",
 			titleLink	: "Для инвестиционных менеджеров",
 			seoTitle	: "Для инвестиционных менеджеров",
 			seoDescription : "",
-			pathLink	: "/for_investment_managers",
+			pathLink	: "/for-investment-managers",
+			invest		: true,
 		},
 		{	
 			nameLink	: "Контакты",
@@ -42,9 +50,23 @@ export const ru = {
 			seoTitle	: "Контакты",
 			seoDescription : "",
 			pathLink	: "/contacts",
+			invest		: false,
 		}
 	],
+	privacyPolicy: {
+		nameLink	: "Политика конфиденциальности",
+		titleLink	: "Политика конфиденциальности",
+		seoTitle	: "Политика конфиденциальности",
+		seoDescription : "",
+		pathLink	: "/privacy-policy",
+	},
 	footer: {
-		copyright: 'Все права защищены.'
+		copyright		: 'Все права защищены.',
+		official		: 'Официальный сайт',
+		privacyPolicy	: 'Политика конфиденциальности',
+		companyBlockName: 'Компания',
+		investBlockName	: 'Инвестиции',
+		contactsBlockName: 'Контакты',
+		companyTxt		: 'Во главе нашей комапнии стоит команда финансовых предпринимателей с огромным профессиональным опытом и стремлением быть первыми.',
 	}
 };

@@ -1,16 +1,15 @@
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
-
 import { Container, Row, Col, Nav, Button } from 'react-bootstrap'
 
 import LogoImg from '@components/ui/logo/LogoImg'
-import LogoTxt from '@components/ui/logo/LogoTxt'
+import LinkLogo from '@components/ui/logo/LinkLogo'
 import LinksMenu from '@components/dumb/menu/LinksMenu'
 import ToggleLanguage from '@components/dumb/language/ToggleLanguage'
 
 import styles from './Navbar.module.scss'
 
 export default function Navbar({ 
+	nameCompany,
 	indexLinksBlock,
 	mainPages,
 }) {
@@ -40,19 +39,12 @@ export default function Navbar({
 					xs="auto"
 					className={`${ styles.brand } navbar-brand d-flex align-items-center`}
 				>
-					<Link 
-						href="/"
-					>
-						<a 
-							title=""
-							className="bs-0 d-flex"
-						>
 
-							<LogoImg />
-							<LogoTxt />
-
-						</a>
-					</Link>
+					<LinkLogo 
+						path="/"
+						nameCompany={ nameCompany }
+					/>
+					
 				</Col>
 
 				<Col

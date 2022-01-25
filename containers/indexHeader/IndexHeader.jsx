@@ -1,3 +1,4 @@
+//import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -10,8 +11,9 @@ export default function IndexHeader({
 	//widthDevice
 }) {
 
-	// Определение телефона по сетке bootstrap 5
-	// для замены меню bootstrap 5 на offcanvas
+	//const router = useRouter()
+	//const lng = router.locale === 'en' ? " (EN)" : " (RU)"
+
 	// const [isMobile, setIsMobile] = useState(widthDevice);
 	// const ismobile = widthDevice < 992;
 	// if (ismobile !== isMobile) setIsMobile(ismobile);
@@ -110,13 +112,16 @@ export default function IndexHeader({
 					lg={6}
 				>
 					<Link
-						href="#"
+						href="/#"
+						locale="en"
 					>
 						<a
 							className="btn btn-lg btn-warning m-2"
 						>
 							<span>
 								{ indexHeader.buttonPres }
+								{ /*lng*/ }
+								&nbsp;(EN)
 							</span>
 						</a>
 					</Link>
@@ -124,8 +129,10 @@ export default function IndexHeader({
 			</Row>
 			<Row>
 				<Col>
-					<p className="mx-auto">
-						{ indexHeader.txt }
+					<p 
+						className="mx-auto"
+					>
+						{ indexHeader.txt } 
 					</p>
 				</Col>
 			</Row>

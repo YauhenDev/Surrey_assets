@@ -19,15 +19,8 @@ $top1200: 400px;  // 400
     height:  calc($height - 400px);
     width: 100%;
 
-	background: rgb(12,18,48);
-	background: linear-gradient(180deg, 
-		rgba(12,18,48,1) 0%, 
-		rgba(18,23,62,1) 10%,
-		rgba(19,34,68,1) 30%, 
-		rgba(18,25,66,1) 50%, 
-		rgba(18,33,69,1) 90%, 
-		rgba(12,18,48,1) 100%
-	);
+	background: $bg-blue;
+	background: $bg-blue-gradient;
 }
 
 .city {

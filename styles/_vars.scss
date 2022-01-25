@@ -13,6 +13,16 @@ $main			:#334242; //
 $yellow			:#FFB400;
 $blue-dark		:#060c1d;
 
+$bg-blue		:rgb(12,18,48);
+$bg-blue-gradient: linear-gradient(180deg, 
+	rgba(12,18,48,1) 0%, 
+	rgba(18,23,62,1) 10%,
+	rgba(19,34,68,1) 30%, 
+	rgba(18,25,66,1) 50%, 
+	rgba(18,33,69,1) 90%, 
+	rgba(12,18,48,1) 100%
+);
+
 $btn-focus-box-shadow:  0;
 
 $theme-colors: (

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-
 import Navbar from '@components/dumb/navbar/Navbar'
+import Footer from '@components/dumb/footer/Footer'
 
 export default function Layout({ 
 	children,
@@ -27,10 +27,17 @@ export default function Layout({
 
 		<Navbar
 			mainPages={ state.mainPages }
+			nameCompany={ state.mainAttr.nameCompany }
 		/>
 
 		{ children }
 
+		<Footer
+			mainAttr={ state.mainAttr }
+			mainPages={ state.mainPages }
+			footer={ state.footer }
+			privacyPolicy={ state.privacyPolicy }
+		/>
 
 	</>
 	)

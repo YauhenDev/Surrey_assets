@@ -21,7 +21,7 @@ export default function MyApp({ Component, pageProps }) {
 	const router = useRouter()
 	const state = router.locale === 'en' ? en : ru
 
-	//Постоянно смотрим за разрешением 
+	//Постоянно смотрим за разрешением и возвращаем разрешение в setWidthDevice
 	const useDeviceSize = () => {
 
 		const [widthDevice, setWidthDevice] = useState(0)
@@ -82,5 +82,4 @@ export default function MyApp({ Component, pageProps }) {
 
 		</Layout>
 	)
-	
 }

@@ -4,7 +4,8 @@ import styles from './ContactsModal.module.scss'
 
 export default function ContactsModal({ 
 	modalShow,
-	setmodalShow
+	setmodalShow,
+
 }) {
 
 	//debugger;

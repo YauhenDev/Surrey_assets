@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import styles from './LogoTxtSvg.module.scss'
 
 export default function LogoTxtSvg({ 

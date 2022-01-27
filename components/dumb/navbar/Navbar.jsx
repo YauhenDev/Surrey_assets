@@ -23,7 +23,9 @@ export default function Navbar({
 	}, []);
 
 	const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-	const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+	const handleNavClose = () => setIsNavCollapsed(true); 				// Всегда фон прозрачный, меню закрыто
+	const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed); // Делать фон наоборот. Для бургера меню.
+	
 
 	//debugger;
 	return (
@@ -38,6 +40,7 @@ export default function Navbar({
 				<Col 
 					xs="auto"
 					className={`${ styles.brand } navbar-brand d-flex align-items-center`}
+					onClick={ handleNavClose }
 				>
 
 					<LinkLogo 
@@ -78,11 +81,14 @@ export default function Navbar({
 				<Col 
 					lg="auto"
 					className={`${ styles.collapse } ${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}
-					id="navbarMenu" 
-					onClick={ handleNavCollapse }
+					id="navbarMenu"
+					//onClick={ handleNavCollapse } 
 				>
 
-					<div className={`${ styles.bgLogo } d-md-block d-lg-none`}>
+					<div 
+						className={`${ styles.bgLogo } d-md-block d-lg-none`}
+						onClick={ handleNavClose }
+					>
 						<LogoImg />
 					</div>
 
@@ -90,9 +96,12 @@ export default function Navbar({
 					<LinksMenu 
 						indexLinksBlock={ indexLinksBlock }
 						mainPages={ mainPages }
+						handleNavClose={ handleNavClose }
 					/>
 
-					<div className="d-none d-lg-block">
+					<div 
+						className="d-none d-lg-block"
+					>
 						<ToggleLanguage />
 					</div>
 

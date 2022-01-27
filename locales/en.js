@@ -67,5 +67,12 @@ export const en = {
 		investBlockName	: 'Investments',
 		contactsBlockName: 'Contacts',
 		companyTxt		: 'Is owned and driven by a team of financial entrepreneurs with vast professional experience and pure passion to beat the average.',
+	},
+	error404: {
+		titleLink	: "404 Uh Oh!",
+		seoTitle	: "404 Uh Oh! You're lost.",
+		seoDescription : "error 404",
+		h2			: "Uh Oh! You're lost.",
+		txt			: "The page you are looking for does not exist. How you got here is a mystery. But you can click the button below to go back to the homepage.",
 	}
 };

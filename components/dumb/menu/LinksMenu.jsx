@@ -3,7 +3,8 @@ import ActiveLink  from '@components/ui/links/ActiveLink'
 import styles from './LinkMenu.module.scss'
 
 export default function LinksMenu({ 
-	mainPages
+	mainPages,
+	handleNavClose
 }) {
 
 	//const mainPagesMenu = mainPages.slice(1,2)
@@ -12,6 +13,7 @@ export default function LinksMenu({
 	return (
 	<ul 
 		className={`${ styles.nav } navbar-nav mx-auto`} 
+		onClick={ handleNavClose } 
 	>
 		{ mainPages.map( (p, i) => (
 			<li 

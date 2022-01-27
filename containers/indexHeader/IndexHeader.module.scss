@@ -171,19 +171,20 @@ $top1200: 400px;  // 400
 }
 
 @media  (max-width: 575px) {
-	// .title {
-	// 	top: 110px;
-	// }
-	// .blockTxt {
-	// 	margin-top: 150px;
-	// }
-
 	.title {
-		top: 150px;
+		top: 110px;
 	}
 	.blockTxt {
-		margin-top: 250px;
+		margin-top: 150px;
 	}
+
+	// SVG в одну строчку
+	// .title {
+	// 	top: 150px;
+	// }
+	// .blockTxt {
+	// 	margin-top: 250px;
+	// }
 
 	// Шрифтовой
 	// .titleMain {

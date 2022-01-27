@@ -4,7 +4,7 @@ import IndexHeader from '@containers/indexHeader/IndexHeader'
 
 export default function Home({
 	state,
-	//widthDevice,
+	widthDevice,
 }) {
 
 	const i = 0
@@ -25,8 +25,8 @@ export default function Home({
 		</Head>
 
 		<IndexHeader 
-			//widthDevice={ widthDevice }
-			nameCompany={ state.mainAttr.nameCompany }
+			widthDevice={ widthDevice }
+			//nameCompany={ state.mainAttr.nameCompany }
 			indexHeader={ indexHeader }
 		/>
 

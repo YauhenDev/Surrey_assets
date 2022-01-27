@@ -7,8 +7,11 @@
 		&:hover {
 			color: $primary;
 		}
-		&::before {
+		&:after {
+			position: relative;
+			width: auto !important;
 			height: 0;
+			background-color: transparent;
 		}
 	}
 	svg {

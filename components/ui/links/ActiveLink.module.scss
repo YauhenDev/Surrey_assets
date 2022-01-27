@@ -2,24 +2,4 @@
 
 .active {
 	color: $primary !important;
-	position: relative;
-    display: inline-block;
-	z-index: 1;
-	&::before {
-		content: "";
-		height: 100%;
-		width: 100%;
-		background-color: transparent !important;
-	}
-	&:hover {
-		background-size: 0 0;
-	}
-}
-
-// МОБИЛА
-@media (max-width: 991px) {
-	.active {
-		color: $primary !important;
-		//background-color: $black;
-	}
 }

@@ -27,35 +27,112 @@ h2 {
 }
 
 a {
-	color: $primary;
-	text-decoration: none;
-	position: relative;
-	&::before {
-		position: absolute;
-		content: "";
-		height: 1px;
-		bottom: -3px;
-		right: 0;
-		width: 0%;
-		background-color: $primary;
-		transition: 0.6s ease-out;
-	}
-	&:hover {
 		color: $primary;
-		&:before {
-			width: 100%;
-			left: 0;
+		text-decoration: none;
+		position: relative;
+		&:after {
+			position: absolute;
+			content: "";
+			height: 1px;
+			bottom: -3px;
+			right: 0;
+			width: 0%;
+			background-color: $primary;
+			transition: 0.6s ease-out;
+		}
+		&:hover {
+			color: $primary;
+			&:after {
+				width: 100%;
+				left: 0;
+				bottom: -3px;
+			}
+		}
+		&.bs-0 {
+			&:after {
+				height: 0;
+				background-color: transparent;
+			}
 		}
 	}
-	&.bs-0 {
-		&::before {
-			height: 0;
-		}
+
+.btn {
+	display: inline-block;
+	transition: all 0.3s ease;
+	position: relative;
+	outline: none;
+	&::before {
+		height: 0;
 	}
 }
 
+
+/* .btn-warning {
+	span {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	&:before,
+	&:after {
+		position: absolute;
+		content: "";
+		right: 0;
+		top: 0;
+		background: rgba(2,126,251,1);
+		transition: all 0.3s ease;
+	}
+	&:before {
+		height: 0%;
+		width: 2px;
+	}
+	&:after {
+		width: 0%;
+		height: 2px;
+	}
+	&:hover {
+		background: transparent;
+		&:before {
+			height: 100%;
+		}
+		&:after {
+			width: 100%;
+		}
+	}
+} */
+
+
+/*   .btn-warning:hover
+  .btn-warning:hover
+  .btn-warning span:hover{
+	 color: rgba(2,126,251,1);
+  }
+  .btn-warning span:before,
+  .btn-warning span:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	 background: rgba(2,126,251,1);
+	transition: all 0.3s ease;
+  }
+  .btn-warning span:before {
+	width: 2px;
+	height: 0%;
+  }
+  .btn-warning span:after {
+	width: 0%;
+	height: 2px;
+  }
+  .btn-warning span:hover:before {
+	height: 100%;
+  }
+  .btn-warning span:hover:after {
+	width: 100%;
+  } */
+/*
 .btn {
-	display: inline-flex;
     position: relative;
 	overflow: hidden;
     z-index: 1;
@@ -85,6 +162,7 @@ a {
 		outline-offset: 0px !important;
 	}
 }
+*/
 
 // обнуляем Global style bootstrap
 .nav-link,
@@ -98,13 +176,6 @@ a {
 		box-shadow: 0 0 0 0 !important;
 		-webkit-box-shadow: 0 0 0 0 !important;
 	}
-}
-
-// Убираем анимацию
-.collapsing {
-	//-webkit-transition: none;
-	//transition: none;
-	//display: none;
 }
 
 //Задаем цвета для логотипа

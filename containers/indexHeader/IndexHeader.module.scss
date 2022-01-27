@@ -1,7 +1,7 @@
 @import "@styles/vars";
 
 $height: 1000px;
-$top: 240px;
+$top: 250px;
 $height1200: calc($height - $top); // 760
 $top1200: 400px;  // 400
 
@@ -58,22 +58,25 @@ $top1200: 400px;  // 400
 	margin: 0 auto;
     text-align: center;
     position: relative;
-	max-width: 1920px;
-    top: $top;
+	//max-width: 1920px; 	// шрифтовой
+    //top: $top;			// шрифтовой
+	max-width: 1320px;
+    top: 280px;
 }
 
-.titleMain {
-	font-size: 10rem;
-	color: rgba($color: $primary, $alpha: 0.75);
-	text-shadow: 0 0 10px #060c1d;
-	font-family: 'Academy',$headings-font-family;
-	font-weight: 400;
-}
+// .titleMain {
+// 	font-size: 10rem;
+// 	color: rgba($color: $primary, $alpha: 0.75);
+// 	text-shadow: 0 0 10px #060c1d;
+// 	font-family: 'Academy',$headings-font-family;
+// 	font-weight: 400;
+// }
 
 .blockTxt {
 	position: relative;
 	z-index: 3;
-	margin-top: 300px;
+	//margin-top: 300px;
+	margin-top: 400px;
 	p {
 		margin-top: 1.5rem;
 		padding: 1rem .75rem;
@@ -97,9 +100,9 @@ $top1200: 400px;  // 400
 	.title {
 		top: calc($top + 40px);
 	}
-	.titleMain {
-		font-size: 8rem;
-	}
+	// .titleMain {
+	// 	font-size: 8rem;
+	// }
 }
 
 @media (max-width: 1199px) {
@@ -117,9 +120,9 @@ $top1200: 400px;  // 400
 	.title {
 		top: 140px;
 	}
-	.titleMain {
-		font-size: 6rem;
-	}
+	// .titleMain {
+	// 	font-size: 6rem;
+	// }
 	.blockTxt {
 		margin-top: 200px;
 		p {
@@ -133,9 +136,9 @@ $top1200: 400px;  // 400
 	.title {
 		top: 120px;
 	}
-	.titleMain {
-		font-size: 4rem;
-	}
+	// .titleMain {
+	// 	font-size: 4rem;
+	// }
 	.bgcity {
 		
 		visibility: hidden;
@@ -147,6 +150,9 @@ $top1200: 400px;  // 400
 	.blockLeft {
 		text-align: center;
 		a {
+			font-size: 1.2rem;
+			padding-right: 0;
+			padding-left: 0;
 			width: 100%;
 			max-width: 275px;
 			span {
@@ -165,11 +171,24 @@ $top1200: 400px;  // 400
 }
 
 @media  (max-width: 575px) {
+	// .title {
+	// 	top: 110px;
+	// }
+	// .blockTxt {
+	// 	margin-top: 150px;
+	// }
+
 	.title {
 		top: 150px;
 	}
-	.titleMain {
-		font-size: 4.4rem;
-		line-height: 3.6rem;
+	.blockTxt {
+		margin-top: 250px;
 	}
+
+	// Шрифтовой
+	// .titleMain {
+	// 	font-size: 4.4rem;
+	// 	line-height: 3.6rem;
+	// }
+	
 }

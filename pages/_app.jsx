@@ -22,23 +22,23 @@ export default function MyApp({ Component, pageProps }) {
 	const state = router.locale === 'en' ? en : ru
 
 	//Постоянно смотрим за разрешением 
-	// const useDeviceSize = () => {
+	const useDeviceSize = () => {
 
-	// 	const [widthDevice, setWidthDevice] = useState(0)
+		const [widthDevice, setWidthDevice] = useState(0)
 
-	// 	const handleWindowResize = () => {
-	// 		setWidthDevice(window.innerWidth);
-	// 	}
+		const handleWindowResize = () => {
+			setWidthDevice(window.innerWidth);
+		}
 
-	// 	useEffect(() => {
-	// 		handleWindowResize();
-	// 		window.addEventListener('resize', handleWindowResize);
-	// 		return () => window.removeEventListener('resize', handleWindowResize);
-	// 	}, []);
-	// 	return widthDevice
+		useEffect(() => {
+			handleWindowResize();
+			window.addEventListener('resize', handleWindowResize);
+			return () => window.removeEventListener('resize', handleWindowResize);
+		}, []);
+		return widthDevice
 
-	// }
-	// const widthDevice = useDeviceSize();
+	}
+	const widthDevice = useDeviceSize();
 
 	//Состояние модального окна
 	const [modalShow, setmodalShow] = useState(false);
@@ -58,7 +58,7 @@ export default function MyApp({ Component, pageProps }) {
 				<Component 
 					{...pageProps}
 					state={state}
-					//widthDevice={ widthDevice }
+					widthDevice={ widthDevice }
 				/>
 			: 
 				/* Если "ВНУТРЯНКА" то оборачиваем "ребенка в шаблон InnerLayout: */

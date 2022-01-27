@@ -28,6 +28,8 @@ export default function Contacts({
 
 		< br />< br />< br />< br />
 		Contacts page< br />
+		
+		< br />< br />
 
 	</>
 	)

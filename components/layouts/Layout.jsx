@@ -6,7 +6,7 @@ import Footer from '@components/dumb/footer/Footer'
 export default function Layout({ 
 	children,
 	state,
-	setmodalShow,
+	//setmodalShow,
 	//widthDevice
 }) {
 
@@ -20,9 +20,9 @@ export default function Layout({
 			<link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml" />
 
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content="" />
-			<meta property="og:site_name" content="" />
-			{/* <meta property="og:image" content="/assets/img/nado.png" /> */}
+			<meta property="og:url" content="https://surrey-assets.com/" />
+			<meta property="og:site_name" content={ state.mainAttr.nameCompany } />
+			{/* <meta property="og:image" content="/assets/img/surrey-assets.png" /> */}
 		</Head>
 
 		<Navbar

@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /
 
 Host: https://surrey-assets.com/
 Sitemap: https://surrey-assets.com/sitemap.xml

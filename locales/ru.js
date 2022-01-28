@@ -9,8 +9,8 @@ export const ru = {
 	mainPages: [
 		{	
 			nameLink	: "Главная",
-			titleLink	: "",
-			seoTitle	: "",
+			titleLink	: "SURREY ASSETS",
+			seoTitle	: "SURREY ASSETS",
 			seoDescription : "",
 			pathLink	: "/",
 			invest		: false,

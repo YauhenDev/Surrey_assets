@@ -2,6 +2,19 @@
 
 .space {
 	padding: 4rem 0;
+	svg {
+		[data-stroke="darkblue"] {
+			fill: none;
+			stroke: $bg-blue;
+		}
+		[data-fill="darkblue"] {
+			fill: $bg-blue;
+		}
+		[data-fs="darkblue"] {
+			fill: $white;
+			stroke: $bg-blue;
+		}
+	}
 }
 
 .text {

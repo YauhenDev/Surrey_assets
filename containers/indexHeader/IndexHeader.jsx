@@ -1,4 +1,4 @@
-//import { useState } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
 
@@ -13,9 +13,9 @@ export default function IndexHeader({
 	widthDevice
 }) {
 
-	// const [isMobile, setIsMobile] = useState(widthDevice);
-	// const ismobile = widthDevice < 992;
-	// if (ismobile !== isMobile) setIsMobile(ismobile);
+	const [isMobile, setIsMobile] = useState(widthDevice);
+	const ismobile = widthDevice < 992;
+	if (ismobile !== isMobile) setIsMobile(ismobile);
 
 	//debugger;
 	return (
@@ -31,7 +31,8 @@ export default function IndexHeader({
 		<div
 			className={ styles.city }
 		>
-			<Image 
+
+			{/* <Image 
 					src="/assets/bg-index-header/city_mobile.png" 
 					layout="fill"
 					objectFit="cover"
@@ -48,8 +49,9 @@ export default function IndexHeader({
 					priority="false"
 					alt="backgroud sky"
 					className={ styles.bgcity }
-				/>
-			{/* 
+				/> 
+			*/}
+
 			{isMobile ?
 				<Image 
 					src="/assets/bg-index-header/city_mobile.png" 
@@ -58,6 +60,7 @@ export default function IndexHeader({
 					quality={100}
 					priority="false"
 					alt="backgroud sky"
+					className={ styles.bgcitymobile }
 				/>
 			: 
 				<Image 
@@ -67,9 +70,9 @@ export default function IndexHeader({
 					quality={100}
 					priority="false"
 					alt="backgroud sky"
+					className={ styles.bgcity }
 				/>
 			} 
-			*/}
 		</div>
 
 		<Container 

@@ -53,6 +53,40 @@ export const ru = {
 			invest		: false,
 		}
 	],
+	ourTeam: {
+		h2		: "Наша команда",
+		txt		: "Описание команды, описание команды описание команды описание команды описание команды описание команды описание команды описание команды описание команды описание команды описание команды",
+		person	: [
+			{
+				name		: "Роберт",
+				position	: "Управляющий партнер",
+				place		: "Rotterdam, Netherlands",
+				photo		: "robert.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Имя Фамилия",
+				position	: "Должность",
+				place		: "Местоположение",
+				photo		: "fake.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Энн",
+				position	: "Управляющий партнер",
+				place		: "Boston, USA",
+				photo		: "ann.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Роберт",
+				position	: "Управляющий партнер",
+				place		: "Rotterdam, Netherlands",
+				photo		: "robert.jpg",
+				contact		: "contact"
+			},
+		]
+	},
 	privacyPolicy: {
 		nameLink	: "Политика конфиденциальности",
 		titleLink	: "Политика конфиденциальности",

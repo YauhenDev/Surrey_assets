@@ -24,6 +24,43 @@ $bgWidthLogo: 400px;
 			height: 38px;	
 		}
 	}
+	// ANIMATION HOVER ЛОГО
+	svg {
+		&[data-logo="img"] [data-fill="blue"] {
+			fill: $primary;
+			stroke:transparent;
+			stroke-width: 0;
+			stroke-dasharray:1000px;
+		}
+	}
+	&:hover {
+		svg {
+			&[data-logo="img"] [data-fill="blue"] {
+				stroke: transparent;
+				fill: $primary;
+				stroke-width: 2px;
+				stroke-dasharray:1000px;
+				animation: a 3s 1;
+				transition: fill ease
+			}
+		}
+	}
+}
+@keyframes a{
+	0%{
+		stroke: $white;
+		stroke-width:2px;
+		stroke-dashoffset:1000;
+		fill:transparent
+	}
+	50%{
+		stroke-width: 1px;
+		stroke-dashoffset:0;
+	}
+	to{
+		stroke-width: 0;
+		stroke: transparent;
+	}
 }
 
 .collapse {

@@ -11,6 +11,7 @@ $main			:#334242; //
 //$green-dark		:#098747;
 //$red			:#dc3545;
 $yellow			:#FFB400;
+$blue			:#1f3361;
 $blue-dark		:#060c1d;
 
 $bg-blue		:rgb(12,18,48);
@@ -43,7 +44,7 @@ $font-weight-normal: 		500;
 //H
 $headings-font-family: 		'Gilroy',sans-serif,Arial,Helvetica;
 $headings-font-weight: 		800;
-$headings-color: 			$white;
+$headings-color: 			$blue;
 
 $h1-font-size:     $font-size-base * 4 !default;
 $h4-font-size:     $font-size-base * 1.2 !default;

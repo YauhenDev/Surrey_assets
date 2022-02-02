@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import IndexHeader from '@containers/indexHeader/IndexHeader'
+import OurTeam from '@containers/ourTeam/OurTeam'
 
 export default function Home({
 	state,
@@ -37,6 +38,11 @@ export default function Home({
 		fake blocks index< br />
 		fake blocks index< br />
 		fake blocks index< br />
+
+		<OurTeam
+			ourTeam={ state.ourTeam }
+		/>
+
 		fake blocks index< br />
 		fake blocks index< br />
 		fake blocks index< br />

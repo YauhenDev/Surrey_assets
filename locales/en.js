@@ -53,6 +53,40 @@ export const en = {
 			invest		: false,
 		}
 	],
+	ourTeam: {
+		h2		: "Our Team",
+		txt		: "Description team, description team description team description team description team description team description team description team description team description team description team description team description team ",
+		person	: [
+			{
+				name		: "Robert Van Gasteren",
+				position	: "Managing Partner",
+				place		: "Rotterdam, Netherlands",
+				photo		: "robert.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Fake Name",
+				position	: "fake position fake position fake position fake position",
+				place		: "fake place",
+				photo		: "fake.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Annelize (Ann) Singh",
+				position	: "Managing Partner",
+				place		: "Boston, USA",
+				photo		: "ann.jpg",
+				contact		: "contact"
+			},
+			{
+				name		: "Robert Van Gasteren",
+				position	: "Managing Partner",
+				place		: "Rotterdam, Netherlands",
+				photo		: "robert.jpg",
+				contact		: "contact"
+			},
+		]
+	},
 	privacyPolicy: {
 		nameLink	: "Privacy policy",
 		titleLink	: "Privacy policy",

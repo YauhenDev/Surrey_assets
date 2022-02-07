@@ -34,7 +34,7 @@ export default function Footer({
 	} = footer
 
 	//Фильтруем mainPages
-	const pagesOnlyInvest = mainPages.filter(p => p.invest)
+	//const pagesOnlyInvest = mainPages.filter(p => p.invest)
 	const pagesOnlyCompany = mainPages.filter(p => !p.invest)
 
 	//debugger; 
@@ -50,9 +50,12 @@ export default function Footer({
 		>
 			<Row>
 				<Col 
+					// md={ 12 }
+					// lg={ 6 } 
+					// xl={ 4 }
 					md={ 12 }
-					lg={ 6 } 
-					xl={ 4 }
+					lg={ 8 } 
+					xl={ 6 }
 				>
 
 					<LinkLogo 
@@ -65,9 +68,12 @@ export default function Footer({
 					</p>
 				</Col>
 				<Col 
-					md={ 6 }
-					lg={ 3 } 
-					xl={ 2 }
+					// md={ 6 }
+					// lg={ 3 } 
+					// xl={ 2 }
+					md={ 12 }
+					lg={ 4 } 
+					xl={ 3 }
 				>
 					<h4>
 						{ companyBlockName }:
@@ -92,7 +98,7 @@ export default function Footer({
 						))}
 					</ul>
 				</Col>
-				<Col 
+				{/* <Col 
 					md={ 6 }
 					lg={ 3 } 
 					xl={ 3 }
@@ -119,7 +125,7 @@ export default function Footer({
 							</li>
 						))}
 					</ul>
-				</Col>
+				</Col> */}
 				<Col 
 					lg={ 12 }
 					xl={ 3 }

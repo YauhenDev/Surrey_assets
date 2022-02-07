@@ -21,10 +21,12 @@ export default function MyApp({ Component, pageProps }) {
 	const router = useRouter()
 	const state = router.locale === 'en' ? en : ru
 
+	//const www = document.body.clientWidth;
+	//console.log(www)
+
 	//Постоянно смотрим за разрешением и возвращаем разрешение в setWidthDevice
 	const useDeviceSize = () => {
-
-		const [widthDevice, setWidthDevice] = useState(0)
+		const [widthDevice, setWidthDevice] = useState()
 
 		const handleWindowResize = () => {
 			setWidthDevice(window.innerWidth);
@@ -36,13 +38,14 @@ export default function MyApp({ Component, pageProps }) {
 			return () => window.removeEventListener('resize', handleWindowResize);
 		}, []);
 		return widthDevice
-
 	}
 	const widthDevice = useDeviceSize();
+
 
 	//Состояние модального окна
 	const [modalShow, setmodalShow] = useState(false);
 
+	//debugger
 	return (
 		// Основной шаблон Layout
 		<Layout

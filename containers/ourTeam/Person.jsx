@@ -14,7 +14,7 @@ export default function Person({
 	//debugger;
 	return (
 	<Card 
-		className={ styles.cardPerson }
+		className={`${styles.cardPerson} h-100`}
 	>
 		<Image 
 			src={ photo }
@@ -29,7 +29,10 @@ export default function Person({
 				as="div"
 			>
 
-			{ name }<br />
+			<h3>
+				{ name }
+			</h3>
+
 			{ position }<br />
 			{ place }<br />
 

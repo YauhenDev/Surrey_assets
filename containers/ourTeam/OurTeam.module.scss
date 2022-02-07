@@ -1,7 +1,5 @@
 @import "@styles/vars";
 
-$block-height	: 630px;
-
 .block {
 	background: rgb(255,255,255);
 	background: linear-gradient(180deg, 
@@ -11,38 +9,21 @@ $block-height	: 630px;
 }
 
 .wrapper {
+	position: relative;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
-	h2 {
-		font-size: 2.5rem;
-		padding-bottom: 2.5rem;
-		text-align: center;
-	}
+	z-index: 1;
 }
 
-.bgLogo {
-	position: absolute;
-	opacity: .1;
-	height: $block-height;
-	width: 100%;
-	text-align: right;
-	z-index: 0;
-	overflow: hidden;
-	svg {
-		position: absolute;
-		height: 100%;
-		top: -5%;
-		right: -10%;
-		-webkit-filter: grayscale(100%);
-    	filter: grayscale(100%);
-	}
-}
+
 
 .cardPerson {
-	min-height: $block-height;
+	//min-height: $block-height;
+	font-size: 1.2rem;
+	h3 {
+		font-size: 1.2rem;
+	}
 }
-
-
 
 @media (max-width: 991px) {
 

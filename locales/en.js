@@ -17,7 +17,7 @@ export const en = {
 			indexHeader	: {
 				buttonName: "Learn more about us",
 				buttonPres: "Download presentation",
-				txt: "We are Swiss based investment corporation with expertise in all bankable asset classes across various regions and industries.  We serve both individual and corporate clients in over 20 countries, operating on the leading financial markets of Europe, Asia, America and CIS.",
+				txt: "Surrey Assets Ltd. is a European holding company of the combined financial group with stable ties in large financial and industrial structures, investment banks and funds. Our group provides financial consulting, investment and asset management solutions for large institutions, families, and individuals, as well as M&A transactions. ",
 			}
 		},
 		{	
@@ -29,20 +29,12 @@ export const en = {
 			invest		: false,
 		},
 		{	
-			nameLink	: "For Private Investors",
-			titleLink	: "For Private Investors",
-			seoTitle	: "For Private Investors",
+			nameLink	: "Our services",
+			titleLink	: "Our services",
+			seoTitle	: "Our services",
 			seoDescription : "",
-			pathLink	: "/for-private-investors",
-			invest		: true,
-		},
-		{	
-			nameLink	: "For Investment Managers",
-			titleLink	: "For Investment Managers",
-			seoTitle	: "For Investment Managers",
-			seoDescription : "",
-			pathLink	: "/for-investment-managers",
-			invest		: true,
+			pathLink	: "/services",
+			invest		: false,
 		},
 		{	
 			nameLink	: "Contacts",
@@ -53,11 +45,22 @@ export const en = {
 			invest		: false,
 		}
 	],
+	aboutUs: {
+		h2		: "SURREY ASSETS LTD",
+		txt1	: "Surrey Assets Ltd. is a European holding company of the combined financial group with stable ties in large financial and industrial structures, investment banks and funds. Our group provides financial consulting, investment and asset management solutions for large institutions, families, and individuals, as well as M&A transactions.",
+		txt2	: "We offer participation in investment programs in the implementation of large infrastructure projects in various sectors of the economy, in the implementation of Development projects, Agriculture, Oil and Gas sector, Mining and Real Estate, among others.",
+		txt3	: "We provide a discreet alternative service to the UHNWI and international business operators who wish to source prime investment opportunities and new global markets – to either acquire, or dispose of Assets, whilst providing a wide range of complementary services in order to protect those assets and the individual, observing strict levels of confidentiality at all times. Over the years, the Surrey Assets Ltd have built up a global network of high-level contacts, ensuring that we place no limits on our spheres of operation, nor indeed the scope of our operational capability. ",	
+		txtFull	: "Subdivisions and partners of our group are present in the Netherlands, France, Austria, Italy, India, Germany, the United States of America, Brazil, China, Africa.",	
+	},
+	ourServices: {
+		h2		: "SURREY ASSETS LTD",
+	},
 	ourTeam: {
 		h2		: "Our Team",
 		txt		: "Description team, description team description team description team description team description team description team description team description team description team description team description team description team ",
 		person	: [
 			{
+				sort		: 100,
 				name		: "Robert Van Gasteren",
 				position	: "Managing Partner",
 				place		: "Rotterdam, Netherlands",
@@ -65,6 +68,7 @@ export const en = {
 				contact		: "contact"
 			},
 			{
+				sort		: 200,
 				name		: "Fake Name",
 				position	: "fake position fake position fake position fake position",
 				place		: "fake place",
@@ -72,6 +76,7 @@ export const en = {
 				contact		: "contact"
 			},
 			{
+				sort		: 300,
 				name		: "Annelize (Ann) Singh",
 				position	: "Managing Partner",
 				place		: "Boston, USA",
@@ -79,11 +84,38 @@ export const en = {
 				contact		: "contact"
 			},
 			{
+				sort		: 400,
 				name		: "Robert Van Gasteren",
 				position	: "Managing Partner",
 				place		: "Rotterdam, Netherlands",
 				photo		: "robert.jpg",
 				contact		: "contact"
+			},
+		]
+	},
+	ourPartners: {
+		h2		: "Our Partners",
+		txt		: "",
+		partners	: [
+			{
+				name		: "Sistema Public Joint Stock Financial Corporation",
+				photo		: "sistema.svg",
+				linkTo		: "https://sistema.com/",
+			},
+			{
+				name		: "Gazprom Export",
+				photo		: "gazprom-export.svg",
+				link			: "http://www.gazpromexport.ru/en/",
+			},
+			{
+				name		: "GV Gold",
+				photo		: "gv-gold.svg",
+				linkTo		: "https://gvgold.ru/en/",
+			},
+			{
+				name		: "Annlyz",
+				photo		: "Annlyz+New+Footer.jpg",
+				linkTo		: "https://www.annlyz.com/",
 			},
 		]
 	},

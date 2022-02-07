@@ -1,17 +1,20 @@
+import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import InnerHeader from "@containers/innerHeader/InnerHeader"
+import ServicesBlock from '@containers/servicesBlock/ServicesBlock'
 
-export default function ForPrivateInvestors({
+export default function About({
 	state
 }) {
 
-	const i = 2
+	const { asPath } = useRouter()
+	const newState = state.mainPages.filter(p => p.pathLink == asPath)
 	const { 
 		titleLink,
 		seoTitle, 
 		seoDescription, 
-	} = state.mainPages[i]
+	} = newState[0]
 
 	return (
 	<>
@@ -26,8 +29,9 @@ export default function ForPrivateInvestors({
 			h1={ titleLink }
 		/>
 
-		< br />< br />< br />< br />
-		For Private Investors< br />
+		<ServicesBlock 
+			ourServices={ state.ourServices }
+		/>
 
 	</>
 	)

@@ -1,0 +1,22 @@
+@import "@styles/vars";
+
+.block {
+	h2 {
+		text-align: center;
+	}
+}
+
+.separator {
+	margin: 2.5rem auto;
+	height: 2px;
+    width: 44px;
+	background-color: $blue;
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media  (max-width: 767px) {
+
+}

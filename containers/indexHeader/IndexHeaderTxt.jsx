@@ -49,11 +49,11 @@ export default function IndexHeaderTxt({
 					<a
 						className="btn btn-lg btn-warning m-2 bs-0"
 					>
-						<span>
+						
 							{ indexHeader.buttonPres }
 							{ /*lng*/ }
 							&nbsp;(EN)
-						</span>
+
 					</a>
 				</Link>
 			</Col>		

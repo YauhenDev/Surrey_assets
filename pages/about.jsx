@@ -1,17 +1,20 @@
+import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import InnerHeader from "@containers/innerHeader/InnerHeader"
+import AboutUs from '@containers/abouUs/AboutUs'
 
 export default function About({
 	state
 }) {
 
-	const i = 1
+	const { asPath } = useRouter()
+	const newState = state.mainPages.filter(p => p.pathLink == asPath)
 	const { 
 		titleLink,
 		seoTitle, 
 		seoDescription, 
-	} = state.mainPages[i]
+	} = newState[0]
 
 	return (
 	<>
@@ -26,45 +29,9 @@ export default function About({
 			h1={ titleLink }
 		/>
 
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
-		about page< br />
+		<AboutUs
+			aboutUs={ state.aboutUs }
+		/>
 
 	</>
 	)

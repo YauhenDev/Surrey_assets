@@ -1,0 +1,27 @@
+@import "@styles/vars";
+
+.block {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.partners {
+	min-height: 130px;
+	display: flex;
+	a {
+		display: flex;
+		justify-content: center;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+@media  (max-width: 767px) {
+	.slide {
+		width: 60% !important;
+		&[data-swiper-slide-index] {
+			margin-left: 12px;
+		}
+	}
+}

@@ -1,7 +1,7 @@
 import {Container, Row, Col } from 'react-bootstrap'
 
+import BgLogo from '@components/ui/logo/BgLogo'
 import Person from './Person'
-import LogoImg from '@components/ui/logo/LogoImg'
 
 import styles from './OurTeam.module.scss'
 
@@ -12,11 +12,7 @@ export default function Team({
 	//debugger;
 	return (
 	<Container as="section" fluid className={`${ styles.block } p-0`}>
-		<div 
-				className={ styles.bgLogo }
-			>
-				<LogoImg />
-		</div>
+		<BgLogo />
 		<Container fluid="xxl" className={ styles.wrapper }>
 			
 			<Row>

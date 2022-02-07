@@ -19,12 +19,20 @@ body {
 	}
 }
 
+section {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
 h1 {
 	color: $white;
 }
 
 h2 {
-
+	font-size: 2.5rem;
+	font-weight: 300;
+	padding-bottom: 2.5rem;
+	text-align: center;
 }
 
 a {
@@ -59,111 +67,38 @@ a {
 
 .btn {
 	display: inline-block;
-	transition: all 0.3s ease;
 	position: relative;
 	outline: none;
-	&::before {
-		height: 0;
-	}
+	z-index: 1;
 }
 
-
-/* .btn-warning {
-	span {
-		position: relative;
-		display: block;
-		width: 100%;
-		height: 100%;
-	}
-	&:before,
-	&:after {
+.btn-warning {
+	&:before {
 		position: absolute;
 		content: "";
-		right: 0;
+		width: 0;
+		height: 100%;
 		top: 0;
-		background: rgba(2,126,251,1);
+		right: 0;
+		z-index: -1;
+		background-color: rgba($color: #FFFFFF, $alpha: 0.25) !important;
 		transition: all 0.3s ease;
 	}
-	&:before {
-		height: 0%;
-		width: 2px;
-	}
-	&:after {
-		width: 0%;
-		height: 2px;
-	}
 	&:hover {
-		background: transparent;
+		color: $blue-dark;
 		&:before {
-			height: 100%;
-		}
-		&:after {
+			left: 0;
 			width: 100%;
 		}
 	}
-} */
+}
 
-
-/*   .btn-warning:hover
-  .btn-warning:hover
-  .btn-warning span:hover{
-	 color: rgba(2,126,251,1);
-  }
-  .btn-warning span:before,
-  .btn-warning span:after {
-	position: absolute;
-	content: "";
-	left: 0;
-	bottom: 0;
-	 background: rgba(2,126,251,1);
-	transition: all 0.3s ease;
-  }
-  .btn-warning span:before {
-	width: 2px;
-	height: 0%;
-  }
-  .btn-warning span:after {
-	width: 0%;
+.separator {
+	margin: 2.5rem auto;
 	height: 2px;
-  }
-  .btn-warning span:hover:before {
-	height: 100%;
-  }
-  .btn-warning span:hover:after {
-	width: 100%;
-  } */
-/*
-.btn {
-    position: relative;
-	overflow: hidden;
-    z-index: 1;
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: -50px;
-		bottom: 0;
-		left: 0;
-		border-right: 50px solid transparent;
-		transition: transform 0.5s;
-		transform: translateX(-100%);
-		z-index: -1;
-	}
-	&:hover:before,
-	&:active:before,
-	&:focus:before {
-		transform: translateX(0);
-	}
+    width: 44px;
+	background-color: $blue;
 }
-
-.btn-link {
-	&:hover {
-		outline: 0 solid !important;
-		outline-color: rgba(255, 255, 255, 0) !important;
-		outline-offset: 0px !important;
-	}
-}
-*/
 
 // обнуляем Global style bootstrap
 .nav-link,

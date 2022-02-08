@@ -29,6 +29,7 @@ export default function Partners({
 				width={300}
 				height={120}
 				className="card-img-top"
+				priority="eager"
 			/>
 		</Button>
 	</div>

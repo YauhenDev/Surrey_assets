@@ -1,6 +1,12 @@
 @import "@styles/vars";
 
-
+.txt {
+	svg {
+		width: 26px;
+		margin-right: 1rem;
+		margin-top: -3px;
+	}
+}
 
 @media (max-width: 991px) {
 

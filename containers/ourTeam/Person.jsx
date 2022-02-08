@@ -10,6 +10,7 @@ export default function Person({
 	place,
 	photo,
 	link,
+	socialIco,
 	socialNetwork
 }) {
 
@@ -60,7 +61,7 @@ export default function Person({
 						alt={ name }
 						width={32}
 						height={32}
-						className={styles.snIco}
+						className={socialIco}
 					/>
 				</a>
 			</Link>

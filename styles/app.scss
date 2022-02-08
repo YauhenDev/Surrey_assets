@@ -142,3 +142,13 @@ svg {
 		font-size: 2rem;
 	}
 }
+
+.fb {
+	filter: invert(36%) sepia(6%) saturate(5703%) hue-rotate(182deg) brightness(86%) contrast(89%);
+}
+.linkedin {
+	filter: invert(28%) sepia(92%) saturate(1071%) hue-rotate(182deg) brightness(102%) contrast(98%);
+}
+.twitter {
+	filter: invert(40%) sepia(89%) saturate(1177%) hue-rotate(182deg) brightness(103%) contrast(88%);
+}

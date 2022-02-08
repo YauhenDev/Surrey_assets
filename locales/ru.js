@@ -67,6 +67,7 @@ export const ru = {
 				photo		: "robert.png",
 				link		: "https://www.linkedin.com/in/robertvangasteren/",
 				socialNetwork: "linkedin.svg",
+				socialIco	: "linkedin",
 			},
 			{
 				sort		: 200,
@@ -76,6 +77,7 @@ export const ru = {
 				photo		: "ann.png",
 				link		: "https://www.facebook.com/Buckbel",
 				socialNetwork: "facebook-square.svg",
+				socialIco	: "fb",
 			},
 			{
 				sort		: 300,
@@ -85,6 +87,7 @@ export const ru = {
 				photo		: "ann.png",
 				link		: "https://www.linkedin.com/in/singhann/",
 				socialNetwork: "linkedin.svg",
+				socialIco	: "linkedin",
 			},
 			{
 				sort		: 400,
@@ -94,6 +97,7 @@ export const ru = {
 				photo		: "robert.png",
 				link		: "https://twitter.com/",
 				socialNetwork: "twitter-square.svg",
+				socialIco	: "twitter",
 			},
 		]
 	},

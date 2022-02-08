@@ -26,12 +26,13 @@ export default function Team({
 				{ourTeam.person.map( (p, i) => (
 					<Col key={ i } className={ styles.person }>
 						<Person
+							photo={`/assets/team/${p.photo}`}
 							name={ p.name }
 							position={ p.position }
 							place={ p.place }
 							link= { p.link }
-							socialNetwork= {`/assets/ico-sc/${p.socialNetwork}`}
-							photo={`/assets/team/${p.photo}`}
+							socialNetwork={`/assets/ico-sc/${p.socialNetwork}`}
+							socialIco={ p.socialIco }
 						/>
 					</Col>
 				))}

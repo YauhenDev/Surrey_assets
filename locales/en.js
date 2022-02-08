@@ -66,7 +66,8 @@ export const en = {
 				place		: "Rotterdam",
 				photo		: "robert.png",
 				link		: "https://www.linkedin.com/in/robertvangasteren/",
-				socialNetwork: "linkedin.svg"
+				socialNetwork: "linkedin.svg",
+				socialIco	: "linkedin",
 			},
 			{
 				sort		: 200,
@@ -75,7 +76,8 @@ export const en = {
 				place		: "Moscow",
 				photo		: "ann.png",
 				link		: "https://www.facebook.com/Buckbel",
-				socialNetwork: "facebook-square.svg"
+				socialNetwork: "facebook-square.svg",
+				socialIco	: "fb",
 			},
 			{
 				sort		: 300,
@@ -84,7 +86,8 @@ export const en = {
 				place		: "Boston",
 				photo		: "ann.png",
 				link		: "https://www.linkedin.com/in/singhann/",
-				socialNetwork: "linkedin.svg"
+				socialNetwork: "linkedin.svg",
+				socialIco	: "linkedin",
 			},
 			{
 				sort		: 400,
@@ -93,7 +96,8 @@ export const en = {
 				place		: "Rotterdam",
 				photo		: "robert.png",
 				link		: "https://twitter.com/",
-				socialNetwork: "twitter-square.svg"
+				socialNetwork: "twitter-square.svg",
+				socialIco	: "twitter",
 			},
 		]
 	},

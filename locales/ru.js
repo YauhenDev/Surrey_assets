@@ -131,7 +131,45 @@ export const ru = {
 		h2		: "We have many advantages",
 	},
 	contacts: {
-		h2		: "ddd",
+		h2		: "Связаться с нами",
+		methods: [
+			{
+				ico		: "envelope.svg",
+				link	: "mailto:info@surrey-assets.com",
+				alt		: "Написать email: info@surrey-assets.com",
+				sIco	: "email",
+			},
+			{
+				ico		: "whatsapp.svg",
+				link	: "https://wa.me/70001234567",
+				alt		: "Чат в WhatsApp",
+				sIco	: "whatsapp",
+			},
+			{
+				ico		: "viber.svg",
+				link	: "viber://chat?number=+70001234567",
+				alt		: "Чат в Viber",
+				sIco	: "viber",
+			},
+			{
+				ico		: "telegram-plane.svg",
+				link	: "https://telegram.me/SurreyAssets",
+				alt		: "Чат в Telegram",
+				sIco	: "tg",
+			},
+			{
+				ico		: "facebook-messenger.svg",
+				link	: "https://m.me/SurreyAssets",
+				alt		: "Чат в messenger",
+				sIco	: "messenger",
+			},
+			{
+				ico		: "phone-alt.svg",
+				link	: "tel:70001234567",
+				alt		: "Позвонить",
+				sIco	: "phone",
+			},
+		]
 	},
 	privacyPolicy: {
 		nameLink	: "Политика конфиденциальности",

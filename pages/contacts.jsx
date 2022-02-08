@@ -34,6 +34,7 @@ export default function Contacts({
 
 		<ContactBlock 
 			contacts={ state.contacts }
+			mainAttr={ state.mainAttr }
 		/>
 
 	</>

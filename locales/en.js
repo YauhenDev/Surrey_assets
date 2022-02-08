@@ -1,7 +1,7 @@
 export const en = {
 	mainAttr: {
 		nameCompany		: 'SURREY ASSETS',
-		ogNameCompany	: 'SURREY ASSETS',
+		ogNameCompany	: 'SURREY ASSETS LTD.',
 		phoneCompany	: '70001234567',
 		emailCompany	: 'info@surrey-assets.com',
 		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
@@ -131,7 +131,45 @@ export const en = {
 		h2		: "We have many advantages",
 	},
 	contacts: {
-		h2		: "ddd",
+		h2		: "Contact us",
+		methods: [
+			{
+				ico		: "envelope.svg",
+				link	: "mailto:info@surrey-assets.com",
+				alt		: "email: info@surrey-assets.com",
+				sIco	: "email",
+			},
+			{
+				ico		: "whatsapp.svg",
+				link	: "https://wa.me/70001234567",
+				alt		: "Chat WhatsApp",
+				sIco	: "whatsapp",
+			},
+			{
+				ico		: "viber.svg",
+				link	: "viber://chat?number=+70001234567",
+				alt		: "Chat Viber",
+				sIco	: "viber",
+			},
+			{
+				ico		: "telegram-plane.svg",
+				link	: "https://telegram.me/SurreyAssets",
+				alt		: "Chat Telegram",
+				sIco	: "tg",
+			},
+			{
+				ico		: "facebook-messenger.svg",
+				link	: "https://m.me/SurreyAssets",
+				alt		: "Chat facebook messenger",
+				sIco	: "messenger",
+			},
+			{
+				ico		: "phone-alt.svg",
+				link	: "tel:70001234567",
+				alt		: "Phone",
+				sIco	: "phone",
+			},
+		]
 	},
 	privacyPolicy: {
 		nameLink	: "Privacy policy",

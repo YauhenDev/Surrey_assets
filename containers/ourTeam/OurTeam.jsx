@@ -29,7 +29,8 @@ export default function Team({
 							name={ p.name }
 							position={ p.position }
 							place={ p.place }
-							contact= { p.contact }
+							link= { p.link }
+							socialNetwork= {`/assets/ico-sc/${p.socialNetwork}`}
 							photo={`/assets/team/${p.photo}`}
 						/>
 					</Col>

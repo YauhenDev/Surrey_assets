@@ -63,33 +63,37 @@ export const ru = {
 				sort		: 100,
 				name		: "Роберт",
 				position	: "Управляющий партнер",
-				place		: "Rotterdam, Netherlands",
-				photo		: "robert.jpg",
-				contact		: "contact"
+				place		: "Rotterdam",
+				photo		: "robert.png",
+				link		: "https://www.linkedin.com/in/robertvangasteren/",
+				socialNetwork: "linkedin.svg",
 			},
 			{
 				sort		: 200,
 				name		: "Имя Фамилия",
 				position	: "Должность",
 				place		: "Местоположение",
-				photo		: "fake.jpg",
-				contact		: "contact"
+				photo		: "ann.png",
+				link		: "https://www.facebook.com/Buckbel",
+				socialNetwork: "facebook-square.svg",
 			},
 			{
 				sort		: 300,
 				name		: "Энн",
 				position	: "Управляющий партнер",
-				place		: "Boston, USA",
-				photo		: "ann.jpg",
-				contact		: "contact"
+				place		: "Boston",
+				photo		: "ann.png",
+				link		: "https://www.linkedin.com/in/singhann/",
+				socialNetwork: "linkedin.svg",
 			},
 			{
 				sort		: 400,
 				name		: "Роберт",
 				position	: "Управляющий партнер",
-				place		: "Rotterdam, Netherlands",
-				photo		: "robert.jpg",
-				contact		: "contact"
+				place		: "Rotterdam",
+				photo		: "robert.png",
+				link		: "https://twitter.com/",
+				socialNetwork: "twitter-square.svg",
 			},
 		]
 	},

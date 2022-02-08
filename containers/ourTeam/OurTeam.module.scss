@@ -15,20 +15,36 @@
 	z-index: 1;
 }
 
-
+.img {
+	padding: 0;
+	background: $bg-blue;
+	background: $bg-blue-gradient;
+}
 
 .cardPerson {
-	//min-height: $block-height;
 	font-size: 1.2rem;
 	h3 {
 		font-size: 1.2rem;
 	}
+	&:hover {
+		.img {
+			background: $bg-blue url(/assets/logo_alpha.svg) no-repeat 50% 50%;
+			background-size: 150%;
+		}
+	}
 }
+
+
 
 @media (max-width: 991px) {
 
 }
 
 @media  (max-width: 767px) {
-
+	.cardPerson {
+		font-size: .8rem;
+		h3 {
+			font-size: 1rem;
+		}
+	}
 }

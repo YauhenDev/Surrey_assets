@@ -63,33 +63,37 @@ export const en = {
 				sort		: 100,
 				name		: "Robert Van Gasteren",
 				position	: "Managing Partner",
-				place		: "Rotterdam, Netherlands",
-				photo		: "robert.jpg",
-				contact		: "contact"
+				place		: "Rotterdam",
+				photo		: "robert.png",
+				link		: "https://www.linkedin.com/in/robertvangasteren/",
+				socialNetwork: "linkedin.svg"
 			},
 			{
 				sort		: 200,
 				name		: "Fake Name",
 				position	: "fake position fake position fake position fake position",
-				place		: "fake place",
-				photo		: "fake.jpg",
-				contact		: "contact"
+				place		: "Moscow",
+				photo		: "ann.png",
+				link		: "https://www.facebook.com/Buckbel",
+				socialNetwork: "facebook-square.svg"
 			},
 			{
 				sort		: 300,
 				name		: "Annelize (Ann) Singh",
 				position	: "Managing Partner",
-				place		: "Boston, USA",
-				photo		: "ann.jpg",
-				contact		: "contact"
+				place		: "Boston",
+				photo		: "ann.png",
+				link		: "https://www.linkedin.com/in/singhann/",
+				socialNetwork: "linkedin.svg"
 			},
 			{
 				sort		: 400,
 				name		: "Robert Van Gasteren",
 				position	: "Managing Partner",
-				place		: "Rotterdam, Netherlands",
-				photo		: "robert.jpg",
-				contact		: "contact"
+				place		: "Rotterdam",
+				photo		: "robert.png",
+				link		: "https://twitter.com/",
+				socialNetwork: "twitter-square.svg"
 			},
 		]
 	},

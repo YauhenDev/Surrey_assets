@@ -119,6 +119,9 @@ export const ru = {
 			},
 		]
 	},
+	indexWe:	{
+		h2		: "We have many advantages",
+	},
 	contacts: {
 		h2		: "ddd",
 	},

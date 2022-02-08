@@ -119,6 +119,9 @@ export const en = {
 			},
 		]
 	},
+	indexWe:	{
+		h2		: "We have many advantages",
+	},
 	contacts: {
 		h2		: "ddd",
 	},

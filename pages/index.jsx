@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import {Container, Row, Col } from 'react-bootstrap'
 
 import IndexHeader from '@containers/indexHeader/IndexHeader'
 import OurTeam from '@containers/ourTeam/OurTeam'
 import OurPartners from '@containers/ourPartners/OurPartners'
+import IndexWe from '@containers/indexWe/IndexWe'
 
 export default function Home({
 	state,
@@ -33,41 +32,10 @@ export default function Home({
 			indexHeader={ indexHeader }
 		/>
 
-		<Container as="section" fluid="xxl">
-			<Row>
-				<Col>
-					<div className="separator"></div>
-					<h2>
-						We have many advantages
-					</h2>
-				</Col>
-			</Row>
-			<Row>
-				<Col 
-					xs={12}
-					sm={6}
-				>
-
-					<Image 
-						src="/assets/bn-fon.jpg"
-						alt=""
-						width={1200}
-						height={675}
-						quality={98}
-
-					/>
-
-				</Col>
-				<Col 
-					xs={12} 
-					sm={6}
-				>
-
-					{ state.aboutUs.txt2 }
-
-				</Col>
-			</Row>
-		</Container>
+		<IndexWe 
+			indexWe={ state.indexWe }
+			aboutUs={ state.aboutUs }
+		/>
 
 		<OurTeam
 			ourTeam={ state.ourTeam }

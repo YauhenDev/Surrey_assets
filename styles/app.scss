@@ -26,9 +26,12 @@ section {
 
 h1 {
 	color: $white;
+	font-family: "Academy", "Gilroy", sans-serif, Arial, Helvetica;
+	font-weight: 400;
 }
 
 h2 {
+	
 	font-size: 2.5rem;
 	font-weight: 300;
 	padding-bottom: 2.5rem;
@@ -134,5 +137,8 @@ svg {
 		visibility: visible;
 		opacity: 1;
 		z-index: 9;
+	}
+	h2 {
+		font-size: 2rem;
 	}
 }

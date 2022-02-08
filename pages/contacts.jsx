@@ -4,7 +4,7 @@ import Head from 'next/head'
 import {Container, Row, Col } from 'react-bootstrap'
 
 import InnerHeader from '@containers/innerHeader/InnerHeader'
-import YandexMap from '@containers/yandexMap/YandexMap'
+import ContactBlock from '@containers/contactBlock/ContactBlock'
 
 export default function Contacts({
 	state
@@ -32,31 +32,10 @@ export default function Contacts({
 			h1={ titleLink }
 		/>
 
-		<Container as="section" fluid="xxl">
-			<Row>
-				<Col>
-					<div className="separator"></div>
-					<h2>
-						We have many advantages
-					</h2>
-					<p>
-						This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.
-					</p>
-				</Col>
-			</Row>
-			<Row>
-				<Col>
+		<ContactBlock 
+			contacts={ state.contacts }
+		/>
 
-
-
-				</Col>
-				<Col>
-
-					<YandexMap />
-
-				</Col>
-			</Row>
-		</Container>
 	</>
 	)
 }

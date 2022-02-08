@@ -119,6 +119,9 @@ export const en = {
 			},
 		]
 	},
+	contacts: {
+		h2		: "ddd",
+	},
 	privacyPolicy: {
 		nameLink	: "Privacy policy",
 		titleLink	: "Privacy policy",

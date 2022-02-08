@@ -119,6 +119,9 @@ export const ru = {
 			},
 		]
 	},
+	contacts: {
+		h2		: "ddd",
+	},
 	privacyPolicy: {
 		nameLink	: "Политика конфиденциальности",
 		titleLink	: "Политика конфиденциальности",

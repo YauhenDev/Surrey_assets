@@ -10,7 +10,7 @@ export default function Phone({
 		<a href={`tel:+${ phone }`}>
 			<NumberFormat 
 				value={ phone }
-				format="+# (###) ### ## ##"
+				format="+## (##) ### ### ##"
 				displayType="text"
 			/>
 		</a>

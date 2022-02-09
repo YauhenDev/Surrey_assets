@@ -1,6 +1,9 @@
 @import "@styles/vars";
 
 .block {
+	min-height: 850px;
+}
+.wrapper {
 	h2 {
 		text-align: center;
 	}
@@ -11,12 +14,4 @@
 	height: 2px;
     width: 44px;
 	background-color: $blue;
-}
-
-@media (max-width: 991px) {
-
-}
-
-@media  (max-width: 767px) {
-
 }

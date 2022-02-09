@@ -26,7 +26,7 @@ export default function Person({
 			height={610}
 			className={`${styles.img} card-img-top`}
 		/>
-		<Card.Body>
+		<Card.Body className={ styles.body }>
 			<Card.Text 
 				className={ styles.text } 
 				as="div"

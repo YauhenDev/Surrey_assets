@@ -23,7 +23,7 @@ export default function Team({
 					</h2>
 				</Col>
 			</Row>
-			<Row className="row row-cols-2 row-cols-lg-4 g-4">
+			<Row className="row row-cols-2 row-cols-lg-4 g-2">
 				{ourTeam.person.map( (p, i) => (
 					<Col key={ i } className={ styles.person }>
 						<Person

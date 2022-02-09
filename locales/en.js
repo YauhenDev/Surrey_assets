@@ -2,7 +2,7 @@ export const en = {
 	mainAttr: {
 		nameCompany		: 'SURREY ASSETS',
 		ogNameCompany	: 'SURREY ASSETS LTD.',
-		phoneCompany	: '70001234567',
+		phoneCompany	: '442012345678',
 		emailCompany	: 'info@surrey-assets.com',
 		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},
@@ -167,8 +167,8 @@ export const en = {
 	},
 	privacyPolicy: {
 		nameLink	: "Privacy policy",
-		titleLink	: "Privacy policy",
-		seoTitle	: "Privacy policy",
+		titleLink	: "Privacy Policy for Surrey Assets Ltd.",
+		seoTitle	: "Privacy Policy for Surrey Assets Ltd.",
 		seoDescription : "",
 		pathLink	: "/privacy-policy",
 	},

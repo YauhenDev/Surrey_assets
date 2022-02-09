@@ -176,6 +176,7 @@ export default function Footer({
 					<small>
 						<Link 
 							href={ privacyPolicy.pathLink }
+							locale="en"
 						>
 							<a 
 								title={ privacyPolicy.nameLink }

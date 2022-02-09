@@ -1,5 +1,7 @@
 import {Container, Row, Col } from 'react-bootstrap'
 
+import BgLogo from '@components/ui/logo/BgLogo'
+
 import styles from './ServicesBlock.module.scss'
 
 export default function ServicesBlock({ 
@@ -12,36 +14,39 @@ export default function ServicesBlock({
 
 	//debugger;
 	return (
-	<Container as="section" fluid="xxl" className={ styles.block }>
-		<Row>
-			<Col>
-				<div className="separator"></div>
-				<h2>
-					We have many advantages
-				</h2>
-				<p>
-					This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.
-				</p>
-			</Col>
-		</Row>
-		<Row>
-			<Col 
-				xs={12}
-				sm={6}
-			>
-				
-				service
+	<Container as="section" fluid className={`${ styles.block } p-0`}>
+		<BgLogo />	
+		<Container fluid="xxl" className={ styles.wrapper }>
+			<Row>
+				<Col>
+					<div className="separator"></div>
+					<h2>
+						We have many advantages
+					</h2>
+					<p>
+						This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.
+					</p>
+				</Col>
+			</Row>
+			<Row>
+				<Col 
+					xs={12}
+					sm={6}
+				>
+					
+					service
 
-			</Col>
-			<Col 
-				xs={12} 
-				sm={6}
-			>
+				</Col>
+				<Col 
+					xs={12} 
+					sm={6}
+				>
 
-				service
+					service
 
-			</Col>
-		</Row>
+				</Col>
+			</Row>
+		</Container>
 	</Container>
 	)
 }

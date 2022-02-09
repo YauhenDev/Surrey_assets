@@ -2,7 +2,7 @@ export const ru = {
 	mainAttr: {
 		nameCompany		: 'SURREY ASSETS',
 		ogNameCompany	: 'SURREY ASSETS',
-		phoneCompany	: '70001234567',
+		phoneCompany	: '442012345678',
 		emailCompany	: 'info@surrey-assets.com',
 		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},

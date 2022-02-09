@@ -123,6 +123,11 @@ svg {
 		fill: $primary;
 	}
 }
+
+.privacy {
+	margin-bottom: 4rem;
+}
+
 @media  (max-width: 1199px) {
 
 }
@@ -140,6 +145,18 @@ svg {
 	}
 	h2 {
 		font-size: 2rem;
+	}
+	.privacy {
+		margin-bottom: 4rem;
+		h2 {
+			font-size: 1.5rem;
+			padding-bottom: 1rem;
+		}
+		p,
+		ul {
+			font-size: 1rem;
+			word-wrap: break-word;
+		}
 	}
 }
 

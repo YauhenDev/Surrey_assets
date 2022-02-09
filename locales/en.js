@@ -134,40 +134,34 @@ export const en = {
 		h2		: "Contact us",
 		methods: [
 			{
-				ico		: "envelope.svg",
+				ico		: "envelope",
 				link	: "mailto:info@surrey-assets.com",
 				alt		: "email: info@surrey-assets.com",
-				sIco	: "email",
 			},
 			{
-				ico		: "whatsapp.svg",
+				ico		: "whatsapp",
 				link	: "https://wa.me/70001234567",
 				alt		: "Chat WhatsApp",
-				sIco	: "whatsapp",
 			},
 			{
-				ico		: "viber.svg",
+				ico		: "viber",
 				link	: "viber://chat?number=+70001234567",
 				alt		: "Chat Viber",
-				sIco	: "viber",
 			},
 			{
-				ico		: "telegram-plane.svg",
+				ico		: "telegram-plane",
 				link	: "https://telegram.me/SurreyAssets",
 				alt		: "Chat Telegram",
-				sIco	: "tg",
 			},
 			{
-				ico		: "facebook-messenger.svg",
+				ico		: "facebook-messenger",
 				link	: "https://m.me/SurreyAssets",
 				alt		: "Chat facebook messenger",
-				sIco	: "messenger",
 			},
 			{
-				ico		: "phone-alt.svg",
-				link	: "tel:70001234567",
+				ico		: "phone-alt",
+				link	: "tel:+70001234567",
 				alt		: "Phone",
-				sIco	: "phone",
 			},
 		]
 	},

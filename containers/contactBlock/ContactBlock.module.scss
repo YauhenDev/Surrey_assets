@@ -1,5 +1,11 @@
 @import "@styles/vars";
 
+.txt {
+	h3 {
+		text-align: center;
+	}
+}
+
 .map {
 	iframe {
 		width: 100%;
@@ -41,7 +47,9 @@
 }
 
 @media (max-width: 991px) {
-
+	.txt {
+		text-align: center;
+	}
 }
 
 @media  (max-width: 767px) {

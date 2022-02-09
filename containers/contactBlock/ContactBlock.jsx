@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 import {Container, Row, Col } from 'react-bootstrap'
 
@@ -29,7 +28,7 @@ export default function ContactBlock({
 				<Col 
 					xs={12}
 					lg={5}
-					className={ styles.map }
+					className={ styles.txt }
 				>
 
 					<h3>
@@ -54,17 +53,13 @@ export default function ContactBlock({
 								key={ i } 
 							>
 								<a
-									target="_blank"
 									title={ p.alt }
 									rel="nofollow"
-									className={`${p.sIco} bs-0`}
+									className={`${p.ico} bs-0`}
 								>
-									<Image 
-										src={`/assets/ico-sc/${p.ico}`}
+									<img 
+										src={`/assets/ico-sc/${p.ico}.svg`}
 										alt={ p.alt }
-										width={32}
-										height={32}
-										
 									/>
 								</a>
 							</Link>

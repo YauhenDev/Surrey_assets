@@ -57,7 +57,7 @@ export default function IndexHeader({
 					src="/assets/bg-index-header/city_mobile.png" 
 					layout="fill"
 					objectFit="cover"
-					quality={100}
+					quality={75}
 					priority="false"
 					alt="backgroud sky"
 					className={ styles.bgcitymobile }
@@ -67,7 +67,7 @@ export default function IndexHeader({
 					src="/assets/bg-index-header/city.png" 
 					layout="fill"
 					objectFit="cover"
-					quality={100}
+					quality={75}
 					priority="false"
 					alt="backgroud sky"
 					className={ styles.bgcity }

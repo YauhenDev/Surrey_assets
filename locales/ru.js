@@ -134,40 +134,34 @@ export const ru = {
 		h2		: "Связаться с нами",
 		methods: [
 			{
-				ico		: "envelope.svg",
+				ico		: "envelope",
 				link	: "mailto:info@surrey-assets.com",
 				alt		: "Написать email: info@surrey-assets.com",
-				sIco	: "email",
 			},
 			{
-				ico		: "whatsapp.svg",
+				ico		: "whatsapp",
 				link	: "https://wa.me/70001234567",
 				alt		: "Чат в WhatsApp",
-				sIco	: "whatsapp",
 			},
 			{
-				ico		: "viber.svg",
+				ico		: "viber",
 				link	: "viber://chat?number=+70001234567",
 				alt		: "Чат в Viber",
-				sIco	: "viber",
 			},
 			{
-				ico		: "telegram-plane.svg",
+				ico		: "telegram-plane",
 				link	: "https://telegram.me/SurreyAssets",
 				alt		: "Чат в Telegram",
-				sIco	: "tg",
 			},
 			{
-				ico		: "facebook-messenger.svg",
+				ico		: "facebook-messenger",
 				link	: "https://m.me/SurreyAssets",
 				alt		: "Чат в messenger",
-				sIco	: "messenger",
 			},
 			{
-				ico		: "phone-alt.svg",
-				link	: "tel:70001234567",
+				ico		: "phone-alt",
+				link	: "tel:+70001234567",
 				alt		: "Позвонить",
-				sIco	: "phone",
 			},
 		]
 	},

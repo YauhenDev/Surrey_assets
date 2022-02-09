@@ -18,6 +18,7 @@ export default function OurPartners({
 		
 		<Row>
 			<Col>
+				<div className="separator"></div>
 				<h2>
 					{ ourPartners.h2 }
 				</h2>

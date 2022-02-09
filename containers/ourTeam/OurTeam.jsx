@@ -17,6 +17,7 @@ export default function Team({
 			
 			<Row>
 				<Col>
+					<div className="separator"></div>
 					<h2>
 						{ ourTeam.h2 }
 					</h2>

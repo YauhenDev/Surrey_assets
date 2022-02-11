@@ -18,7 +18,27 @@ export const ru = {
 				buttonName: "Узнать подробнее о нас",
 				buttonPres: "Скачать презентацию",
 				txt: "Surrey Assets Ltd. — Европейский холдинг объединяющий финансовые группы, имеющий устойчивые связи в крупных финансово-промышленных структурах, инвестиционных банках и фондах. Наша группа предоставляет финансовые консультации, решения для инвестиций и управления активами для крупных организаций, семей и частных лиц, а также сделки по слияниям и поглощениям.",
-			}
+			},
+			indexWe:	{
+				h2		: "We have many advantages",
+			},
+			indexWeButton: [
+				{
+					name: "Banking instruments",
+					link: "/services",
+					ico: "bank",
+				},
+				{
+					name: "Oil and Gas sector",
+					link: "/services",
+					ico: "oil",
+				},
+				{
+					name: "Development sector",
+					link: "/services",
+					ico: "development",
+				},
+			]
 		},
 		{	
 			nameLink	: "О нас",
@@ -126,9 +146,6 @@ export const ru = {
 				linkTo		: "https://www.annlyz.com/",
 			},
 		]
-	},
-	indexWe:	{
-		h2		: "We have many advantages",
 	},
 	contacts: {
 		h2		: "Связаться с нами",

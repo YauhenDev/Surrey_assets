@@ -33,7 +33,8 @@ export default function Home({
 		/>
 
 		<IndexWe 
-			indexWe={ state.indexWe }
+			indexWe={ state.mainPages[0].indexWe }
+			indexWeButton={ state.mainPages[0].indexWeButton }
 			aboutUs={ state.aboutUs }
 		/>
 

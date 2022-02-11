@@ -5,8 +5,9 @@ import { Autoplay } from "swiper";
 
 import Partners from './Partners'
 
-import styles from './OurPartners.module.scss'
 import "swiper/css"
+import styles from './OurPartners.module.scss'
+
 
 export default function OurPartners({ 
 	ourPartners
@@ -51,11 +52,11 @@ export default function OurPartners({
 				>
 					{ourPartners.partners.map( (p, i) => (
 						<SwiperSlide key={ i } className={ styles.slide }>
-								<Partners
-									name={ p.name }
-									photo={`/assets/partners/${p.photo}`}
-									linkTo={ p.linkTo }
-								/>
+							<Partners
+								name={ p.name }
+								photo={`/assets/partners/${p.photo}`}
+								linkTo={ p.linkTo }
+							/>
 						</SwiperSlide>
 					))}
 				</Swiper>

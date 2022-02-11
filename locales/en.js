@@ -18,7 +18,27 @@ export const en = {
 				buttonName: "Learn more about us",
 				buttonPres: "Download presentation",
 				txt: "Surrey Assets Ltd. is a European holding company of the combined financial group with stable ties in large financial and industrial structures, investment banks and funds. Our group provides financial consulting, investment and asset management solutions for large institutions, families, and individuals, as well as M&A transactions. ",
-			}
+			},
+			indexWe:{ 
+				h2		: "We have many advantages",
+			},
+			indexWeButton: [
+				{
+					name: "Banking instruments",
+					link: "/services",
+					ico: "bank",
+				},
+				{
+					name: "Oil and Gas sector",
+					link: "/services",
+					ico: "oil",
+				},
+				{
+					name: "Development sector",
+					link: "/services",
+					ico: "development",
+				},
+			]
 		},
 		{	
 			nameLink	: "About Us",
@@ -126,9 +146,6 @@ export const en = {
 				linkTo		: "https://www.annlyz.com/",
 			},
 		]
-	},
-	indexWe:	{
-		h2		: "We have many advantages",
 	},
 	contacts: {
 		h2		: "Contact us",

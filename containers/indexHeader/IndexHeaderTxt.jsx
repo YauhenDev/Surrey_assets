@@ -32,11 +32,11 @@ export default function IndexHeaderTxt({
 				>
 					<motion.a
 						className="btn btn-lg btn-warning m-2 bs-0" 
-
+						style={{opacity: 0}}
 						animate={{ scale: [0, 1], }}
 						transition={{ duration: 1 }}
-						//initial={{ opacity: 0 }}
-						//whileInView={{ opacity: 1 }}
+						initial={{ opacity: 0 }}
+						whileInView={{ opacity: 1 }}
 						viewport={{ once: true }}
 					>
 						<span>
@@ -56,11 +56,11 @@ export default function IndexHeaderTxt({
 				>
 					<motion.a
 						className="btn btn-lg btn-warning m-2 bs-0"
-
+						style={{opacity: 0}}
 						animate={{ scale: [0, 1], }}
 						transition={{ duration: 1.5 }}
-						//initial={{ opacity: 0 }}
-						//whileInView={{ opacity: 1 }}
+						initial={{ opacity: 0 }}
+						whileInView={{ opacity: 1 }}
 						viewport={{ once: true }}
 					>
 						

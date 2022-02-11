@@ -2,6 +2,8 @@
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
+import { motion } from "framer-motion"
+
 import styles from './IndexHeader.module.scss'
 
 export default function IndexHeaderTxt({ 
@@ -28,13 +30,19 @@ export default function IndexHeaderTxt({
 				<Link
 					href="/about"
 				>
-					<a
+					<motion.a
 						className="btn btn-lg btn-warning m-2 bs-0" 
+
+						animate={{ scale: [0, 1], }}
+						transition={{ duration: 1 }}
+						//initial={{ opacity: 0 }}
+						//whileInView={{ opacity: 1 }}
+						viewport={{ once: true }}
 					>
 						<span>
 							{ indexHeader.buttonName }
 						</span>
-					</a>
+					</motion.a>
 				</Link>
 			</Col>
 			<Col
@@ -46,25 +54,34 @@ export default function IndexHeaderTxt({
 					href="/"
 					locale="en"
 				>
-					<a
+					<motion.a
 						className="btn btn-lg btn-warning m-2 bs-0"
+
+						animate={{ scale: [0, 1], }}
+						transition={{ duration: 1.5 }}
+						//initial={{ opacity: 0 }}
+						//whileInView={{ opacity: 1 }}
+						viewport={{ once: true }}
 					>
 						
 							{ indexHeader.buttonPres }
 							{ /*lng*/ }
 							&nbsp;(EN)
 
-					</a>
+					</motion.a>
 				</Link>
 			</Col>		
 		</Row>
 		<Row>
 			<Col>
-				<p 
+				<motion.p
 					className="mx-auto"
+					animate={{ scale: [0, 1], }}
+					transition={{ duration: 1.8 }}
+					viewport={{ once: true }}
 				>
 					{ indexHeader.txt } 
-				</p>
+				</motion.p>
 			</Col>
 		</Row>
 	</Container>

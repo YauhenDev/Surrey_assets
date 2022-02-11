@@ -40,13 +40,12 @@ export default function AboutUs({
 					md={6}
 					className="position-relative"
 				>
-
 					<div 
 						className={ styles.imgLeftBlock }
 					>
 						<Image 
 							src="/assets/bn-fon.jpg"
-							alt="Санузел в трендовых синих оттенках 2020 почти готов"
+							alt=""
 							className="image-left img-fluid position-relative top-0 end-0 bg-cover"
 							layout="fill"
 							objectFit='contain'
@@ -57,7 +56,6 @@ export default function AboutUs({
 					>
 						{ txt2 }
 					</p>
-
 				</Col>
 				<Col 
 					xs={12}
@@ -68,7 +66,7 @@ export default function AboutUs({
 					>
 						<Image 
 							src="/assets/bn-fon.jpg"
-							alt="Санузел в трендовых синих оттенках 2020 почти готов"
+							alt=""
 							className="image-left img-fluid position-relative top-0 end-0 bg-cover"
 							layout="fill"
 							objectFit='contain'

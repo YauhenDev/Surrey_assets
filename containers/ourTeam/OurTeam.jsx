@@ -5,6 +5,7 @@ import Person from './Person'
 
 import styles from './OurTeam.module.scss'
 
+
 export default function Team({ 
 	ourTeam
 }) {
@@ -12,7 +13,9 @@ export default function Team({
 	//debugger;
 	return (
 	<Container as="section" fluid className={`${ styles.block } p-0`}>
+
 		<BgLogo />
+
 		<Container fluid="xxl" className={ styles.wrapper }>
 			
 			<Row>

@@ -1,10 +1,8 @@
 import Image from 'next/image'
-import Link from 'next/link'
-
 import {Container, Row, Col } from 'react-bootstrap'
+import IndexWeButtons from './IndexWeButtons'
 
 import styles from './IndexWe.module.scss'
-import IndexWeButtons from './IndexWeButtons'
 
 export default function IndexWe({ 
 	indexWe,
@@ -48,7 +46,7 @@ export default function IndexWe({
 
 				</Col>
 			</Row>
-			<Row className={ styles.txt }>
+			<Row className="mb-4">
 				{indexWeButton.map( (p, i) => (
 					<IndexWeButtons 
 						key={ i }

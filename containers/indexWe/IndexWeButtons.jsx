@@ -10,20 +10,19 @@ export default function IndexWeButtons({
 	ico
 }) {
 
-
 	//debugger;
 	return (
 	<Col 
 		xs={12}
 		lg={4}
-		className="text-center"
+		className="text-center my-2"
 	>
 
 		<Link
 			href={ link }
 		>
 			<a
-				className="btn btn-lg btn-warning m-2 bs-0" 
+				className={`${ styles.btn } btn btn-lg btn-warning bs-0`}
 			>
 				<IcoServices 
 					ico={ ico }

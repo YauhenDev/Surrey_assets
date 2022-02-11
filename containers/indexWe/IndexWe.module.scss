@@ -3,6 +3,10 @@
 .txt {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
+}
+
+.btn {
+	min-width: 320px;
 	svg {
 		width: 26px;
 		margin-right: 1rem;
@@ -15,5 +19,7 @@
 }
 
 @media  (max-width: 767px) {
-
+	.btn {
+		min-width: 100%;
+	}
 }

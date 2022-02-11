@@ -1,6 +1,6 @@
 export const en = {
 	mainAttr: {
-		nameCompany		: 'SURREY ASSETS',
+		nameCompany		: 'SURREY ASSETS — European holding company',
 		ogNameCompany	: 'SURREY ASSETS LTD.',
 		phoneCompany	: '442012345678',
 		emailCompany	: 'info@surrey-assets.com',

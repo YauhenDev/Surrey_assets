@@ -22,7 +22,7 @@ export default function Layout({
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://surrey-assets.com/" />
 			<meta property="og:site_name" content={ state.mainAttr.nameCompany } />
-			{/* <meta property="og:image" content="/assets/img/surrey-assets.png" /> */}
+			<meta property="og:image" content="/assets/img/surrey-assets.png" />
 		</Head>
 
 		<Navbar

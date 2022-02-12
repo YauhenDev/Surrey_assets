@@ -73,7 +73,27 @@ export const en = {
 		txtFull	: "Subdivisions and partners of our group are present in the Netherlands, France, Austria, Italy, India, Germany, the United States of America, Brazil, China, Africa.",	
 	},
 	ourServices: {
-		h2		: "SURREY ASSETS LTD",
+		h2		: "We have many advantages",
+		services: [
+			{
+				anchor: "banking",
+				h3: 	"Banking instruments",
+				img: 	"banking.jpg",
+				txt: 	"<p>BG/SBLC (CASH BACKED, FRESH CUT, FORMAT 758 URDG, ICC 600) for Purchases and for Leasing Trades in a partnership.</p><p>We have direct contacts with Fund Owners and Providers/Principals, so we have the best offers and prices. We have the opportunity together with our friendly banks to issue various banking instruments for clients according to their request (LOI) and project needs.</p>",
+			},
+			{
+				anchor: "oil-and-gas",
+				h3: 	"Oil and Gas sector and Mining industry",
+				img: 	"oil.jpg",
+				txt: 	"<p>Deliveries of diesel fuel, natural gas, urea, gold, copper, etc.</p>",
+			},
+			{
+				anchor: "development",
+				h3: 	"Development sector",
+				img: 	"dev.jpg",
+				txt: 	"<p>Investment in Residential and Commercial Real Estate in Italy, Germany, France, Switzerland, Russia</p>",
+			},
+		]
 	},
 	ourTeam: {
 		h2		: "Our Team",

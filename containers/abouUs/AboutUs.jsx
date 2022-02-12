@@ -44,7 +44,7 @@ export default function AboutUs({
 						className={ styles.imgLeftBlock }
 					>
 						<Image 
-							src="/assets/bn-fon.jpg"
+							src="/assets/bn-img2.jpg"
 							alt=""
 							className="image-left img-fluid position-relative top-0 end-0 bg-cover"
 							layout="fill"
@@ -65,7 +65,7 @@ export default function AboutUs({
 						className={`${ styles.imgRightBlock } d-md-block d-none`} 
 					>
 						<Image 
-							src="/assets/bn-fon.jpg"
+							src="/assets/bn-img.jpg"
 							alt=""
 							className="image-left img-fluid position-relative top-0 end-0 bg-cover"
 							layout="fill"

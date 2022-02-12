@@ -11,8 +11,10 @@ const ActiveLink = ({ fuzzy = false, href, children }) => {
 	let className = children.props.className || ''
 	//let dataactive = children.props.setAttribute || 'false'
 
+	
 	const hrefTokens = href.substr(1).split('/')
 	const pathTokens = router.asPath.substr(1).split('/')
+	//const sanitizedPath = router.asPath.split("#")[0].split("?")[0]
 
 	let matched = false;
 	for (let i = 0; i < hrefTokens.length; i++) {
@@ -22,8 +24,9 @@ const ActiveLink = ({ fuzzy = false, href, children }) => {
 		}
 	}
 
-	if ((!fuzzy && router.asPath === href) || (fuzzy && matched)) {
-		className = `${ className } ${ styles.active }`;
+	if ((!fuzzy && router.asPath === href ) || (fuzzy && matched)) {
+		//className = `${ className } ${ styles.active }`;
+		className = `${ styles.active }`
 		//dataactive = 'true'
 	}
 

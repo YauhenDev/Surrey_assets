@@ -54,21 +54,21 @@ export default function ContactForm({
 	};
 
 	const handleOnSubmit = (e) => {
-	e.preventDefault();
-	setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-	axios({
-		method: 'POST',
-		url: 'https://formspree.io/f/xbjwyrnw',
-		data: inputs,
-	})
+		e.preventDefault();
+		setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
+		axios({
+			method: 'POST',
+			url: 'https://formspree.io/f/xbjwyrnw',
+			data: inputs,
+		})
 		.then((response) => {
-		handleServerResponse(
-			true,
-			'Thank you, your message has been submitted.',
-		);
+			handleServerResponse(
+				true,
+				'Thank you, your message has been submitted.',
+			);
 		})
 		.catch((error) => {
-		handleServerResponse(false, error.response.data.error);
+			handleServerResponse(false, error.response.data.error);
 		});
 	};
 
@@ -122,7 +122,7 @@ export default function ContactForm({
 						data-sitekey="6LeBLKIeAAAAACPyMnniGxWVPGKijOEPGd_PhBd-"
 					>
 					</div>
-					
+
 					<button type="submit" disabled={status.submitting}>
 					{!status.submitting
 						? !status.submitted

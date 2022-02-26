@@ -5,7 +5,7 @@ import {Container, Row, Col } from 'react-bootstrap'
 
 import InnerHeader from '@containers/innerHeader/InnerHeader'
 import ContactBlock from '@containers/contactBlock/ContactBlock'
-import ContactForm from '@containers/contactForm/ContactForm'
+//import ContactForm from '@containers/contactForm/ContactForm'
 
 export default function Contacts({
 	state
@@ -38,10 +38,10 @@ export default function Contacts({
 			mainAttr={ state.mainAttr }
 		/>
 
-		<ContactForm
+		{/* <ContactForm
 
 		/>
-
+ */}
 	</>
 	)
 }

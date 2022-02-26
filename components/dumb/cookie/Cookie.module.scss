@@ -1,0 +1,38 @@
+@import "@styles/vars";
+
+.container {
+	background-color: rgba($color: $blue-dark, $alpha: 0.9) !important;
+	backdrop-filter: blur(10px);
+	a {
+		color: $white;
+	}
+}
+
+.btn {
+	background-color: $yellow;
+	color: $black;
+	font-size: 1rem;
+}
+
+@media  (max-width: 991px) {
+	.container {
+		align-items: flex-start !important;
+		flex-wrap: nowrap !important;
+	}
+	.content {
+		flex: auto !important;
+		width: 75% !important;
+		margin: 10px 0 !important;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: .8rem;
+	}
+	.btnBlock {
+		width: 25%;
+		text-align: center;
+	}
+}
+
+@media  (max-width: 767px) {
+
+}

@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import {Container, Row, Col } from 'react-bootstrap'
+import parse from 'html-react-parser'
+
 import IndexWeButtons from './IndexWeButtons'
 
 import styles from './IndexWe.module.scss'
@@ -42,7 +44,9 @@ export default function IndexWe({
 					sm={6}
 				>
 
-					{ aboutUs.txt2 }
+					{ parse(`
+						${ aboutUs.txt2 }
+					`) }
 
 				</Col>
 			</Row>

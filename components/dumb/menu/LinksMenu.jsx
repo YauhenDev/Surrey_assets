@@ -20,13 +20,12 @@ export default function LinksMenu({
 				key={ i } 
 				className={`${ styles.item } nav-item`}
 			>
-				<ActiveLink 
+				<ActiveLink
 					fuzzy
 					href={ p.pathLink }
 				>
 					<a 
 						title={ p.titleLink }
-						className={ styles.sidebarLink }
 					>
 						{ p.nameLink }
 					</a>

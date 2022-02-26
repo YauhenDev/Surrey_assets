@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import Layout from '@components/layouts/Layout'
 import InnerLayout from '@components/layouts/InnerLayout'
 import ContactsModal from '@components/dumb/modal/ContactsModal'
+import Cookie from '@components/dumb/cookie/Cookie'
 
 import { en } from '@locales/en'
 import { ru } from '@locales/ru'
@@ -81,6 +82,10 @@ export default function MyApp({ Component, pageProps }) {
 			<ContactsModal	
 				modalShow={ modalShow }
 				setmodalShow={ setmodalShow }
+			/>
+
+			<Cookie
+				cookie={ state.cookie }
 			/>
 
 		</Layout>

@@ -99,11 +99,11 @@ export default function Navbar({
 						handleNavClose={ handleNavClose }
 					/>
 
-					<div 
+					{/* <div 
 						className="d-none d-lg-block"
 					>
 						<ToggleLanguage />
-					</div>
+					</div> */}
 
 				</Col>
 

@@ -1,13 +1,10 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 
-import {Container, Row, Col } from 'react-bootstrap'
+import InnerHeader from "@containers/innerHeader/InnerHeader"
+import OurTeam from '@containers/ourTeam/OurTeam'
 
-import InnerHeader from '@containers/innerHeader/InnerHeader'
-import ContactBlock from '@containers/contactBlock/ContactBlock'
-import ContactForm from '@containers/contactForm/ContactForm'
-
-export default function Contacts({
+export default function About({
 	state
 }) {
 
@@ -19,7 +16,6 @@ export default function Contacts({
 		seoDescription, 
 	} = newState[0]
 
-	//debugger
 	return (
 	<>
 		<Head>
@@ -33,13 +29,8 @@ export default function Contacts({
 			h1={ titleLink }
 		/>
 
-		<ContactBlock 
-			contacts={ state.contacts }
-			mainAttr={ state.mainAttr }
-		/>
-
-		<ContactForm
-
+		<OurTeam
+			ourTeam={ state.ourTeam }
 		/>
 
 	</>

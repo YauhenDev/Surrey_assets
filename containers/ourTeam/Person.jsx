@@ -45,7 +45,7 @@ export default function Person({
 
 			</Card.Text>
 		</Card.Body>
-		<Card.Footer 
+		{/* <Card.Footer 
 			className={`${ styles.footer } pb-0`}
 		>
 			<Link
@@ -65,7 +65,7 @@ export default function Person({
 					/>
 				</a>
 			</Link>
-		</Card.Footer>
+		</Card.Footer> */}
 	</Card>
 	)
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import {Container, Row, Col } from 'react-bootstrap'
+import parse from 'html-react-parser'
 
 import BgLogo from '@components/ui/logo/BgLogo'
 
@@ -29,9 +30,9 @@ export default function AboutUs({
 					<h2>
 						{ h2 }
 					</h2>
-					<p>
-						{ txt1 }
-					</p>
+					{ parse(`
+						${ txt1 }
+					`) }
 				</Col>
 			</Row>
 			<Row>
@@ -54,7 +55,9 @@ export default function AboutUs({
 					<p 
 						className={`float-md-end mt-4 mx-auto ${ styles.blockquote }`} 
 					>
-						{ txt2 }
+						{ parse(`
+							${ txt2 }
+						`) }
 					</p>
 				</Col>
 				<Col 
@@ -73,16 +76,16 @@ export default function AboutUs({
 						/>
 
 					</div>
-					<p>
-						{ txt3 }
-					</p>
+					{ parse(`
+						${ txt3 }
+					`) }
 				</Col>
 			</Row>
 			<Row>
 				<Col>
-					<p>
-						{ txtFull }
-					</p>
+					{ parse(`
+						${ txtFull }
+					`) }
 				</Col>
 			</Row>
 		</Container>

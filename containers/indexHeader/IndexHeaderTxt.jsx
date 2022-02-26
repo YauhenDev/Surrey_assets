@@ -72,7 +72,7 @@ export default function IndexHeaderTxt({
 				</Link>
 			</Col>		
 		</Row>
-		<Row>
+		{/* <Row>
 			<Col>
 				<motion.p
 					className="mx-auto"
@@ -86,7 +86,7 @@ export default function IndexHeaderTxt({
 					{ indexHeader.txt } 
 				</motion.p>
 			</Col>
-		</Row>
+		</Row> */}
 	</Container>
 	)
 }

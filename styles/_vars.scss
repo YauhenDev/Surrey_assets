@@ -7,7 +7,7 @@ $main			:#334242; //
 
 //$purple			:#1f2641;
 //$purple-light	:#545c79;
-//$green			:#10cb6c;
+$green			:#10cb6c;
 //$green-dark		:#098747;
 //$red			:#dc3545;
 $yellow			:#FFB400;
@@ -29,8 +29,8 @@ $btn-focus-box-shadow:  0;
 $theme-colors: (
 	"secondary"	:  	$secondary,
 	"primary"	:   $primary,
-   // "danger"	: 	$red,
-	//"success"	:	$green,
+   	//"danger"	: 	$red,
+	"success"	:	$green,
 	"warning"	:	$yellow,
 	"info"		:	$primary,
 );

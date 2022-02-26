@@ -2,7 +2,7 @@ export const ru = {
 	mainAttr: {
 		nameCompany		: 'SURREY ASSETS',
 		ogNameCompany	: 'SURREY ASSETS',
-		phoneCompany	: '442012345678',
+		phoneCompany	: '442033185824',
 		emailCompany	: 'info@surrey-assets.com',
 		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},
@@ -17,7 +17,7 @@ export const ru = {
 			indexHeader	: {
 				buttonName: "Узнать подробнее о нас",
 				buttonPres: "Скачать презентацию",
-				txt: "Surrey Assets Ltd. — Европейский холдинг объединяющий финансовые группы, имеющий устойчивые связи в крупных финансово-промышленных структурах, инвестиционных банках и фондах. Наша группа предоставляет финансовые консультации, решения для инвестиций и управления активами для крупных организаций, семей и частных лиц, а также сделки по слияниям и поглощениям.",
+				txt: "",
 			},
 			indexWe:	{
 				h2		: "We have many advantages",
@@ -216,7 +216,7 @@ export const ru = {
 		companyBlockName: 'Компания',
 		investBlockName	: 'Инвестиции',
 		contactsBlockName: 'Контакты',
-		companyTxt		: 'Во главе нашей комапнии стоит команда финансовых предпринимателей с огромным профессиональным опытом и стремлением быть первыми.',
+		companyTxt		: '',
 	},
 	error404: {
 		titleLink	: "404 О-о-о, нет! ",
@@ -224,5 +224,12 @@ export const ru = {
 		seoDescription : "Ошибка 404",
 		h2			: "О-о-о, нет! Вы потерялись",
 		txt			: "Страница, которую вы ищете, не существует. Как вы сюда попали - загадка. Но вы можете нажать кнопку ниже, чтобы вернуться на главную страницу.",
+	},
+	cookie: {
+		textPre:	"Этот веб-сайт использует файлы cookie, чтобы обеспечить Вам удобство на нашем сайте.",
+		textAft:	"",
+		textLink:	"Подробнее...",
+		link:		"/privacy-policy",
+		textBtn:	"Принять",
 	}
 };

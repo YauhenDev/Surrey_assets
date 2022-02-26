@@ -9,9 +9,6 @@
 	h2 {
 		text-align: center;
 	}
-	img {
-		margin-top: 4rem;
-	}
 }
 
 .separator {
@@ -19,4 +16,14 @@
 	height: 2px;
     width: 44px;
 	background-color: $blue;
+}
+
+.img {
+	margin-top: 5rem;
+}
+
+@media (max-width: 991px) {
+	.img {
+		margin-top: 1rem;
+	}
 }

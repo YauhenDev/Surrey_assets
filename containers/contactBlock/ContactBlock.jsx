@@ -21,7 +21,6 @@ export default function ContactBlock({
 					<h2>
 						{ contacts.h2 }
 					</h2>
-
 				</Col>
 			</Row>
 			<Row>
@@ -34,6 +33,10 @@ export default function ContactBlock({
 					<h3>
 						{ mainAttr.ogNameCompany }
 					</h3>
+
+					<p>
+						{ contacts.txt }
+					</p>
 
 						<div className="separator"></div>
 

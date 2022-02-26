@@ -17,6 +17,9 @@ export default function About({
 		seoDescription, 
 	} = state.mainPages[2]
 
+	// if (asPath.indexOf("#") > -1) {
+	// 	alert("#");
+	// }
 
 	// 	if (state.mainPages.indexOf(p => p.pathLink) == asPath) {
 	// 		state.mainPages.filter(p => p.pathLink == asPath)

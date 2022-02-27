@@ -80,7 +80,7 @@ export default function ContactBlock({
 
 				</Col>
 			</Row>
-			<Row>
+		{/* 	<Row>
 				<Col 
 					xs={12}
 					lg={5}
@@ -104,7 +104,7 @@ export default function ContactBlock({
 					<iframe src="https://www.google.com/maps/d/embed?mid=1zd57pgxopPmUnaiRC4RDyNhGgtbPmfDx&ehbc=2E312F"></iframe>
 
 				</Col>
-			</Row>
+			</Row> */}
 	</Container>
 	)
 }

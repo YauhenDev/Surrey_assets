@@ -69,6 +69,24 @@ export default function ContactBlock({
 						))}
 					</div>
 
+				</Col>
+				<Col 
+					xs={12}
+					lg={7}
+					className={ styles.map }
+				>
+
+					<iframe src="https://www.google.com/maps/d/embed?mid=1usJCuHsaWKytNRGVf6znrgcWi21bppD_&ehbc=2E312F"></iframe>
+
+				</Col>
+			</Row>
+			<Row>
+				<Col 
+					xs={12}
+					lg={5}
+					className={ styles.txt }
+				>
+
 					<div className="separator"></div>
 
 					<p className="mb-4">
@@ -83,7 +101,7 @@ export default function ContactBlock({
 					className={ styles.map }
 				>
 
-					<iframe src="https://www.google.com/maps/d/embed?mid=1usJCuHsaWKytNRGVf6znrgcWi21bppD_&ehbc=2E312F"></iframe>
+					<iframe src="https://www.google.com/maps/d/embed?mid=1zd57pgxopPmUnaiRC4RDyNhGgtbPmfDx&ehbc=2E312F"></iframe>
 
 				</Col>
 			</Row>

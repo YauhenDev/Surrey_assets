@@ -125,7 +125,7 @@ export const en = {
 		person	: [
 			{
 				sort		: 100,
-				name		: "Robert Van Gasteren",
+				name		: "Mark",
 				position	: "Chairman of the Board",
 				
 				place		: "",
@@ -147,7 +147,7 @@ export const en = {
 			},
 			{
 				sort		: 300,
-				name		: "Annelize (Ann) Singh",
+				name		: "Katrin",
 				position	: "Executive Director, Board Member",
 
 				place		: "",
@@ -158,7 +158,7 @@ export const en = {
 			},
 			{
 				sort		: 400,
-				name		: "Josh",
+				name		: "David",
 				position	: "Independent Director",
 
 				place		: "",

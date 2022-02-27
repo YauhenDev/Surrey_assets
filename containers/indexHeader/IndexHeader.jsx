@@ -97,9 +97,9 @@ export default function IndexHeader({
 		</div>
 		*/}
 
-		<IndexHeaderTxt 
+		{/* <IndexHeaderTxt 
 			indexHeader={ indexHeader }
-		/>
+		/> */}
 
 	</Container>
 	)

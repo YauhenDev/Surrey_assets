@@ -22,23 +22,6 @@ export const ru = {
 			indexWe:	{
 				h2		: "We have many advantages",
 			},
-			indexWeButton: [
-				{
-					name: "Banking instruments",
-					link: "/services",
-					ico: "bank",
-				},
-				{
-					name: "Oil and Gas sector",
-					link: "/services",
-					ico: "oil",
-				},
-				{
-					name: "Development sector",
-					link: "/services",
-					ico: "development",
-				},
-			]
 		},
 		{	
 			nameLink	: "О нас",
@@ -89,30 +72,50 @@ export const ru = {
 				h3: 	"Wealth management",
 				img: 	"banking.jpg",
 				txt: 	"<p>We provide a wide range of wealth management services to successful families, entrepreneurs, foundations, and charities. We advise our clients on all their financial and non-financial wealth. By helping our clients invest, we strive to ensure good returns and reduce risks even in the most difficult financial conditions. We view investment as an art and are very careful about our clients ' wishes, providing advice for them. Investment structuring and asset protection in order to preserve and increase the capital of our clients are the main tasks that we set for ourselves. The long-term value of any investment must be reasonable and efficient. This is possible only if we have a guaranteed partner who we want to become for our clients.</p>",
+			
+				name: 	"Wealth management",
+				link: 	"/services",
+				ico: 	"management",
 			},
 			{
 				anchor: "finance",
 				h3: 	"Trade and export Finance",
 				img: 	"fin.jpg",
 				txt: 	"<p>We recognize that trade finance can be challenging for clients who are more focused on their manufacturing, commodity and other lines of business. In turn, our specialists also work with designated brokers and representatives of these clients to best arrive at a dynamic solution.</p><p>Ultimately, our company always maintains a customer-oriented vision to come and provide the best solution. We can help your business consider a wide range of financing options, from traditional overdraft or bank loans to more innovative crowdfunding or alternative financing. We understand that trade finance clients come with different needs.</p><p>The banking instruments that clients require can be differentiated by the size of the instrument, the duration of the instrument, the payment structure, the rating of the issuing bank or advising bank, and the relationship the client maintains with their banks or other financial institutions.</p><p><strong>Banking instruments</strong></p><ul><li>BG</li><li>SBLC (CASH BACKED, FRESH CUT, FORMAT 758 URDG, ICC 600) for Purchases and for Leasing Trades in a partnership.</li></ul><p>We have direct contacts with Fund Owners and Providers/Principals, so we have the best offers and prices. We have the opportunity together with our friendly banks to issue various banking instruments for clients according to their request (LOI) and project needs.</p><p>We help you connect with key influencers and stakeholders across many different financial institutions to arrange trade finance for our clients as quickly as possible.</p>",
+			
+				name: 	"Trade and export Finance",
+				link: 	"/services",
+				ico: 	"bank",
 			},
 			{
 				anchor: "oil-and-gas",
 				h3: 	"Oil and Gas sector and Mining industry",
 				img: 	"oil.jpg",
 				txt: 	"<p>Our oil & gas team helps clients meet the complex trade challenges they face</p><p>Our oil & gas trading team has many years of experience working with government owned producers, leading oil traders and energy multinationals. This has given us critical insight into how to put together deals, assess risks and advise on trading issues and the financing, transport and supply of oil and gas.</p>",
+				
+				name: "Oil and Gas sector",
+				link: "/services",
+				ico: "oil",
 			},
 			{
 				anchor: "metals",
 				h3: 	"Refined and Precious Metals",
 				img: 	"metal.jpg",
 				txt: 	"<p>We offer trading in bullion, bars, and coins in gold and silver. When trading precious metals, Surrey Assets acts as an agent only; we hold no inventory in refined and precious metals, nor does Surrey Assets buy or sell by taking positions in the market. We send your orders directly to the refined and precious metals plants or investment companies we use who buy and sell for us in the precious metals marketplace.</p>",
+			
+				name: 	"Refined and Precious Metals",
+				link: 	"/services",
+				ico: 	"metals",
 			},
 			{
 				anchor: "development",
 				h3: 	"Real estate development and investment",
 				img: 	"dev.jpg",
 				txt: 	"<p>Real estate development and investment covers a range of real estate specialists, our team can provide you with commercial and legal advice on all aspects of residential and commercial sites.</p><p><strong>Real estate funds</strong><p>We act for real estate investment funds and their managers regarding their investment activities and have a comprehensive understanding of the investment structures typically used. Our experts advise on the divestment of indirect holdings and formulate work-out plans in relation to existing investments, supporting you in secondary sales of fund interests or in the pursuit of other realization opportunities. Our funds team works with our wider taxation and corporate teams, so you are supported by a full team committed to your investment aims in Italy, Germany, France, Switzerland, Russia and other countries.</p>",
+			
+				name: 	"Development sector",
+				link: 	"/services",
+				ico: 	"development",
 			},
 		]
 	},

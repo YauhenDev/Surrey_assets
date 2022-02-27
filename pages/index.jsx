@@ -34,7 +34,7 @@ export default function Home({
 
 		<IndexWe 
 			indexWe={ state.mainPages[0].indexWe }
-			indexWeButton={ state.mainPages[0].indexWeButton }
+			indexWeButton={ state.ourServices.services }
 			aboutUs={ state.aboutUs }
 		/>
 

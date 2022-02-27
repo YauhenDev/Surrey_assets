@@ -38,7 +38,7 @@ export default function ContactBlock({
 						{ contacts.txt }
 					</p>
 
-						<div className="separator"></div>
+					<div className="separator"></div>
 
 					<p>
 						{ mainAttr.addrCompany }
@@ -68,6 +68,12 @@ export default function ContactBlock({
 							</Link>
 						))}
 					</div>
+
+					<div className="separator"></div>
+
+					<p className="mb-4">
+						{ contacts.filial }
+					</p>
 
 
 				</Col>

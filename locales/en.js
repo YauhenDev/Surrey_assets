@@ -206,8 +206,9 @@ export const en = {
 		]
 	},
 	contacts: {
-		h2		: "Get in touch",
-		txt		: "We are at your service and will respond to your request as soon as possible",
+		h2		: "",
+		txt		: "",
+		filial	: "De Vlashoeck 492661 LX Bergschenhoek Netherlands",
 		methods: [
 			{
 				ico		: "envelope",

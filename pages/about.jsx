@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import InnerHeader from "@containers/innerHeader/InnerHeader"
-import AboutUs from '@containers/abouUs/AboutUs'
+import AboutUs from '@containers/aboutUs/AboutUs'
 
 export default function About({
 	state

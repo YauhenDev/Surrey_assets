@@ -54,7 +54,9 @@ export default function Navbar({
 					className={`${ styles.togglerCol } navbar-toggler`}
 				>
 
-					<ToggleLanguage />
+					{/* 
+						<ToggleLanguage /> 
+					*/}
 
 					<Button 
 						className={ styles.togglerNavbar }

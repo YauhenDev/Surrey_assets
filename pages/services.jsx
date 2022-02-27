@@ -15,7 +15,7 @@ export default function About({
 		titleLink,
 		seoTitle, 
 		seoDescription, 
-	} = state.mainPages[2]
+	} = state.mainPages[3]
 
 	// if (asPath.indexOf("#") > -1) {
 	// 	alert("#");

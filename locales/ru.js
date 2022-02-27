@@ -64,9 +64,19 @@ export const ru = {
 		txtFull	: "<p>We act independently, with the highest level of integrity and expect to become leaders in our markets.</p><ul><li>Independent company with the highest level of integrity</li><li>Long-term relationships in the industry</li><li>Multilingual team, we speak a dozen languages</li><li>Competitive bids and offers</li><li>Pricing and hedging solutions available based on LME</li><li>Spot and long-term deals</li><li>Regulatory compliance, safety first</li></ul>",	
 	},
 	ourServices: {
-		h2		: "SURREY ASSETS LTD",
-		txt		: "<p>Our team of specialists will always provide clients with specialized services for managing equity investments, fixed income, and diversified capital management. The European office of our company strives to balance the investment portfolio of our clients, finding rational approaches to reduce risks and increase profitability. We are always ready to advise clients for their further effective investments.</p><p>Our company always offers asset management services to institutional market participants, external distributors and financial consultants. Our full range of products includes stocks, fixed income bonds, convertible bonds, and diversified funds.</p>",
+		h2		: "",
+		txt		: "",
 		services: [
+			{
+				anchor: "asset",
+				h3: 	"Asset Management",
+				img: 	"asset.jpg",
+				txt: 	"<p>Our team of specialists will always provide clients with specialized services for managing equity investments, fixed income, and diversified capital management. The European office of our company strives to balance the investment portfolio of our clients, finding rational approaches to reduce risks and increase profitability. We are always ready to advise clients for their further effective investments.</p><p>Our company always offers asset management services to institutional market participants, external distributors and financial consultants. Our full range of products includes stocks, fixed income bonds, convertible bonds, and diversified funds.</p>",
+			
+				name: 	"Asset Management",
+				link: 	"/services",
+				ico: 	"asset",
+			},
 			{
 				anchor: "fund",
 				h3: 	"Wealth management",

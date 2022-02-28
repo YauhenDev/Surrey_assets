@@ -194,7 +194,7 @@ export default function ServicesBlock({
 				</Col>
 			</Row>
 
-			<Row 
+			{/* <Row 
 				className="mb-4" 
 				id={ ourServices.services[5].anchor }
 			>
@@ -226,7 +226,7 @@ export default function ServicesBlock({
 					/>
 
 				</Col>
-			</Row>
+			</Row> */}
 
 		</Container>
 	</Container>

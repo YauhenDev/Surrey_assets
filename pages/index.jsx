@@ -38,9 +38,9 @@ export default function Home({
 			aboutUs={ state.aboutUs }
 		/>
 
-		<OurTeam
+		{/* <OurTeam
 			ourTeam={ state.ourTeam }
-		/>
+		/> */}
 
 		<OurPartners
 			ourPartners={ state.ourPartners }

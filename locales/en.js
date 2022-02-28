@@ -31,14 +31,14 @@ export const en = {
 			pathLink	: "/about",
 			invest		: false,
 		},
-		{	
+		/* {	
 			nameLink	: "Our Team",
 			titleLink	: "Our Team",
 			seoTitle	: "Our Team",
 			seoDescription : "",
 			pathLink	: "/our-team",
 			invest		: false,
-		},
+		}, */
 		{	
 			nameLink	: "Our Services",
 			titleLink	: "Our Services",

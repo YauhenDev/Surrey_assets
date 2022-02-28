@@ -77,7 +77,7 @@ export const en = {
 				link: 	"/services",
 				ico: 	"asset",
 			},
-			{
+			/* {
 				anchor: "fund",
 				h3: 	"Wealth management",
 				img: 	"banking.jpg",
@@ -86,7 +86,7 @@ export const en = {
 				name: 	"Wealth management",
 				link: 	"/services",
 				ico: 	"management",
-			},
+			}, */
 			{
 				anchor: "finance",
 				h3: 	"Trade and export Finance",

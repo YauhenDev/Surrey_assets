@@ -17,7 +17,7 @@ export default function Layout({
 		<Head>
 			<meta name="theme-color" content="#1f2641" />
 			<link rel="shortcut icon" href="/assets/favicon/favicon.png" type="image/png" />
-			<link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml" />
+			<link rel="icon" sizes="120x120" href="/assets/favicon/favicon.svg" type="image/svg+xml" />
 
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://surrey-assets.com/" />

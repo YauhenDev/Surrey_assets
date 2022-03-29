@@ -200,7 +200,7 @@ export const en = {
 			},
 			{
 				name		: "Annlyz",
-				photo		: "Annlyz+New+Footer.jpg",
+				photo		: "annlyz.jpg",
 				linkTo		: "https://www.annlyz.com/",
 			},
 		]

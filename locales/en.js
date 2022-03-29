@@ -2,7 +2,7 @@ export const en = {
 	mainAttr: {
 		nameCompany		: 'SURREY ASSETS — European holding company',
 		ogNameCompany	: 'SURREY ASSETS LTD.',
-		phoneCompany	: '442033185824',
+		phoneCompany	: '',
 		emailCompany	: 'info@surrey-assets.com',
 		addrCompany		: 'One Canada Square, Canary Wharf, London, United Kingdom, E14 5AB',
 	},
@@ -215,11 +215,11 @@ export const en = {
 				link	: "mailto:info@surrey-assets.com",
 				alt		: "email: info@surrey-assets.com",
 			},
-			{
+			/* {
 				ico		: "whatsapp",
-				link	: "https://wa.me/442033185824",
+				link	: "https://wa.me/",
 				alt		: "Chat WhatsApp",
-			},
+			}, */
 			/* {
 				ico		: "viber",
 				link	: "viber://chat?number=+442033185824",
@@ -235,11 +235,11 @@ export const en = {
 				link	: "https://m.me/SurreyAssets",
 				alt		: "Chat facebook messenger",
 			}, */
-			{
+			/* {
 				ico		: "phone-alt",
-				link	: "tel:+442033185824",
+				link	: "tel:",
 				alt		: "Phone",
-			},
+			}, */
 		]
 	},
 	privacyPolicy: {
